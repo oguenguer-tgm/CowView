@@ -227,26 +227,6 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-77.72</pan>
-            <tilt>0.16</tilt>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point02</id>
-          <title>$ut</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node2}</url>
-          <skinid>ht_icon_cow</skinid>
-          <autoplace>0</autoplace>
-        </hotspot>
-        <hotspot>
-          <position>
             <pan>93.37</pan>
             <tilt>2.63</tilt>
           </position>
@@ -278,8 +258,9 @@
           <type>point</type>
           <id>Point04</id>
           <title>Eingang zum Stall und Umkleide</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -424,6 +405,70 @@
           <linksubtype>unknown</linksubtype>
           <url>{node3}</url>
         </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>-75.88</pan>
+              <tilt>-5.85</tilt>
+            </vertex>
+            <vertex>
+              <pan>-72.71</pan>
+              <tilt>-12.86</tilt>
+            </vertex>
+            <vertex>
+              <pan>-81.47</pan>
+              <tilt>-12.51</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly03</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>-75.15</pan>
+              <tilt>-12.79</tilt>
+            </vertex>
+            <vertex>
+              <pan>-74.96</pan>
+              <tilt>-19.33</tilt>
+            </vertex>
+            <vertex>
+              <pan>-78.87</pan>
+              <tilt>-19.1</tilt>
+            </vertex>
+            <vertex>
+              <pan>-78.34</pan>
+              <tilt>-12.67</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly04</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+        </hotspot>
       </hotspots>
       <streetview/>
       <streetviewproject/>
@@ -440,16 +485,33 @@
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>-165</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>-10</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>120</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>-165</pan>
+          <tilt>-10</tilt>
+          <fov>120</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>rectilinear</flyinprojection>
+        <defaultviewtimestamp>2019-07-15T15:08:36</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <datetime>10.07.2019 08:30</datetime>
@@ -469,8 +531,8 @@
           </next>
           <polygon>
             <vertex>
-              <pan>0.86</pan>
-              <tilt>16.51</tilt>
+              <pan>1.44</pan>
+              <tilt>16.98</tilt>
             </vertex>
             <vertex>
               <pan>-23.85</pan>
@@ -507,8 +569,8 @@
           </next>
           <polygon>
             <vertex>
-              <pan>-142.07</pan>
-              <tilt>10.8</tilt>
+              <pan>-141.39</pan>
+              <tilt>11.21</tilt>
             </vertex>
             <vertex>
               <pan>-165.26</pan>
@@ -538,8 +600,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-12.58</pan>
-            <tilt>-4.18</tilt>
+            <pan>-12.59</pan>
+            <tilt>-3.89</tilt>
           </position>
           <next>
             <pan>0</pan>
@@ -550,8 +612,9 @@
           <type>point</type>
           <id>Point01</id>
           <title>Ausgang</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -614,8 +677,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-161.15</pan>
-            <tilt>-1.31</tilt>
+            <pan>-151.59</pan>
+            <tilt>-7.76</tilt>
           </position>
           <next>
             <pan>0</pan>
@@ -626,8 +689,9 @@
           <type>point</type>
           <id>Point05</id>
           <title>Eingang zum Stall</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node5}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -648,16 +712,33 @@
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>-138.27</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>4.48</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>120</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>-138.27</pan>
+          <tilt>4.48</tilt>
+          <fov>120</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>rectilinear</flyinprojection>
+        <defaultviewtimestamp>2019-07-15T15:13:26</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <datetime>10.07.2019 08:42</datetime>
@@ -687,24 +768,70 @@
           <autoplace>0</autoplace>
         </hotspot>
         <hotspot>
-          <position>
-            <pan>-137.45</pan>
-            <tilt>1.77</tilt>
-          </position>
+          <position/>
           <next>
             <pan>0</pan>
             <tilt>0</tilt>
             <fov>0</fov>
           </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point02</id>
+          <polygon>
+            <vertex>
+              <pan>-133.43</pan>
+              <tilt>-10.66</tilt>
+            </vertex>
+            <vertex>
+              <pan>-129.6</pan>
+              <tilt>-18.76</tilt>
+            </vertex>
+            <vertex>
+              <pan>-139.11</pan>
+              <tilt>-19.69</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
           <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node5}</url>
-          <skinid>ht_icon_cow_stehend</skinid>
-          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>-132.06</pan>
+              <tilt>-18.9</tilt>
+            </vertex>
+            <vertex>
+              <pan>-131.3</pan>
+              <tilt>-25.97</tilt>
+            </vertex>
+            <vertex>
+              <pan>-136.01</pan>
+              <tilt>-26.33</tilt>
+            </vertex>
+            <vertex>
+              <pan>-135.99</pan>
+              <tilt>-19.47</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly02</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node5}</url>
         </hotspot>
       </hotspots>
       <output/>
@@ -723,16 +850,33 @@
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>-23.95</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>2.45</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>110</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>-22.45</pan>
+          <tilt>-8.13</tilt>
+          <fov>110</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>rectilinear</flyinprojection>
+        <defaultviewtimestamp>2019-07-15T15:18:44</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <datetime>10.07.2019 08:46</datetime>
@@ -815,24 +959,70 @@
           <url>{node6}</url>
         </hotspot>
         <hotspot>
-          <position>
-            <pan>-88.59</pan>
-            <tilt>-1.54</tilt>
-          </position>
+          <position/>
           <next>
             <pan>0</pan>
             <tilt>0</tilt>
             <fov>0</fov>
           </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point01</id>
+          <polygon>
+            <vertex>
+              <pan>-85.48</pan>
+              <tilt>-16.66</tilt>
+            </vertex>
+            <vertex>
+              <pan>-79.9</pan>
+              <tilt>-24.16</tilt>
+            </vertex>
+            <vertex>
+              <pan>-90.31</pan>
+              <tilt>-25.48</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly03</id>
           <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node4}</url>
-          <skinid>ht_icon_cow_stehend</skinid>
-          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>-82.77</pan>
+              <tilt>-24.5</tilt>
+            </vertex>
+            <vertex>
+              <pan>-82.3</pan>
+              <tilt>-31.5</tilt>
+            </vertex>
+            <vertex>
+              <pan>-88.03</pan>
+              <tilt>-32.22</tilt>
+            </vertex>
+            <vertex>
+              <pan>-88.15</pan>
+              <tilt>-25.17</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly04</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node4}</url>
         </hotspot>
         <hotspot>
           <position>
@@ -886,8 +1076,9 @@
           <type>point</type>
           <id>Point04</id>
           <title>Behandlung</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -905,8 +1096,9 @@
           <type>point</type>
           <id>Point05</id>
           <title>Dusche</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -927,16 +1119,33 @@
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>131.51</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>2.36</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>120</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>131.51</pan>
+          <tilt>2.36</tilt>
+          <fov>110</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>rectilinear</flyinprojection>
+        <defaultviewtimestamp>2019-07-15T15:20:48</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953183</latitude>
@@ -1039,8 +1248,9 @@
           <type>point</type>
           <id>Point05</id>
           <title>Eingang zum Laufstall</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node7}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -1058,8 +1268,9 @@
           <type>point</type>
           <id>Point06</id>
           <title>Mischhalle_Gang</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node5}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -1080,7 +1291,7 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node15}</url>
-          <skinid>ht_info_blau</skinid>
+          <skinid>ht_icon_cow_stehend</skinid>
           <autoplace>0</autoplace>
         </hotspot>
         <hotspot>
@@ -1168,16 +1379,33 @@
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>89</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>2.14</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>120</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>89.35</pan>
+          <tilt>2.14</tilt>
+          <fov>120</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>rectilinear</flyinprojection>
+        <defaultviewtimestamp>2019-07-15T15:22:34</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953189</latitude>
@@ -1308,8 +1536,9 @@
           <type>point</type>
           <id>Point01</id>
           <title>Behandlung</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -1356,6 +1585,26 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node11}</url>
+          <skinid>ht_icon_cow_stehend</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>52.2</pan>
+            <tilt>1.27</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node15}</url>
           <skinid>ht_icon_cow_stehend</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -2049,6 +2298,26 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <autoplace>0</autoplace>
         </hotspot>
         <hotspot>
+          <position>
+            <pan>-88.36</pan>
+            <tilt>-0.36</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node15}</url>
+          <skinid>ht_icon_cow_stehend</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
           <position/>
           <next>
             <pan>0</pan>
@@ -2074,8 +2343,10 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </polygon>
           <type>poly</type>
           <id>Poly01</id>
-          <linktype>url</linktype>
+          <title>$ut</title>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
         </hotspot>
         <hotspot>
           <position/>
@@ -2107,8 +2378,10 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </polygon>
           <type>poly</type>
           <id>Poly02</id>
-          <linktype>url</linktype>
+          <title>$ut</title>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
         </hotspot>
       </hotspots>
       <output/>
@@ -2711,10 +2984,49 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </polygon>
           <type>poly</type>
           <id>Poly01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-137.69</pan>
+            <tilt>-1.26</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
           <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node6}</url>
+          <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>82.3</pan>
+            <tilt>2.85</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <skinid>ht_icon_cow_stehend</skinid>
+          <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
       <output/>

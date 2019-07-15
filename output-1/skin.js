@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.2.5/15998
 // Filename: CowView_Skin.ggsk
-// Generated Mo. Jul 15 11:52:03 2019
+// Generated Mo. Jul 15 15:28:30 2019
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -1772,7 +1772,7 @@ function pano2vrSkin(player,base) {
 			this._htt_info_blau.ggType='svg';
 			hs ='';
 			hs+='height : 30px;';
-			hs+='left : -15px;';
+			hs+='left : -16px;';
 			hs+='position : absolute;';
 			hs+='top : -15px;';
 			hs+='visibility : inherit;';
@@ -1791,6 +1791,9 @@ function pano2vrSkin(player,base) {
 					return this.parentNode.ggElementNodeId();
 				}
 				return me.ggNodeId;
+			}
+			this._htt_info_blau.onclick=function (e) {
+				me.player.openNext(me.hotspot.url,"");
 			}
 			this._htt_info_blau.onmouseover=function (e) {
 				me._ht_info_text_blau.style[domTransition]='none';
