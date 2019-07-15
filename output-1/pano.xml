@@ -1,832 +1,848 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" appversion="5.2.5" apprev="15998">
-  <panorama hideabout="1" id="node2">
-    <input leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="5.1" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+<tour appversion="5.2.5" apprev="15998" start="node1">
+  <panorama id="node2" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="5.1" width="1344" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.116872" datetime="10.07.2019 12:12" copyright="" latitude="47.952856" comment="" title="Parkplatz" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Parkplatz" tags="CowView" latitude="47.952856" source="" description="" info="" author="" datetime="10.07.2019 12:12" comment="" longitude="16.116872" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
+      <hotspot skinid="ht_icon_cow" title="Eingang" id="Point01" target="" pan="-103.15" description="" url="{node1}" tilt="0.34"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node1">
-    <input leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-0.1" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node1" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-0.1" width="1344" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.116167" datetime="10.07.2019 08:19" copyright="" latitude="47.953278" comment="" title="Eingang" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
-      <hotspot tilt="1.34" pan="-46.81" target="" skinid="Hot_info_blau" id="Point01" title="Aufgang zum Büro" description="" url=""/>
-      <polyhotspot target="" id="Poly01" title="Dusche" description="" url="{node3}">
-        <vertex tilt="10.84" pan="-11.2"/>
-        <vertex tilt="10.27" pan="-17.75"/>
-        <vertex tilt="-9.74" pan="-18.02"/>
-        <vertex tilt="-10.6" pan="-10.93"/>
-        <vertex tilt="-10.6" pan="-10.93"/>
+    <userdata copyright="" title="Eingang" tags="CowView" latitude="47.953278" source="" description="" info="" author="" datetime="10.07.2019 08:19" comment="" longitude="16.116167" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
+      <hotspot skinid="ht_info_blau" title="Aufgang zum Büro" id="Point01" target="" pan="-46.81" description="" url="" tilt="1.34"/>
+      <hotspot skinid="ht_icon_cow" title="Parkplatz" id="Point02" target="" pan="-77.72" description="" url="{node2}" tilt="0.16"/>
+      <polyhotspot title="Dusche" id="Poly01" target="" description="" url="{node3}">
+        <vertex pan="-11.2" tilt="10.84"/>
+        <vertex pan="-17.75" tilt="10.27"/>
+        <vertex pan="-18.02" tilt="-9.74"/>
+        <vertex pan="-10.93" tilt="-10.6"/>
+        <vertex pan="-10.93" tilt="-10.6"/>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node3">
-    <input leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1.6" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node3" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1.6" width="1344" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="" datetime="10.07.2019 08:30" copyright="" latitude="" comment="" title="Dusche" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
-      <polyhotspot target="" id="Poly01" title="Eingang" description="" url="{node1}">
-        <vertex tilt="16.51" pan="0.86"/>
-        <vertex tilt="14.1" pan="-22.38"/>
-        <vertex tilt="-30.39" pan="-22.13"/>
-        <vertex tilt="-35.86" pan="0.57"/>
-        <vertex tilt="-35.86" pan="0.57"/>
+    <userdata copyright="" title="Dusche" tags="CowView" latitude="" source="" description="" info="" author="" datetime="10.07.2019 08:30" comment="" longitude="" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
+      <polyhotspot title="Eingang" id="Poly01" target="" description="" url="{node1}">
+        <vertex pan="0.86" tilt="16.51"/>
+        <vertex pan="-22.38" tilt="14.1"/>
+        <vertex pan="-22.13" tilt="-30.39"/>
+        <vertex pan="0.57" tilt="-35.86"/>
+        <vertex pan="0.57" tilt="-35.86"/>
+      </polyhotspot>
+      <polyhotspot title="Mischhalle_Gang" id="Poly02" target="" description="" url="{node5}">
+        <vertex pan="-142.07" tilt="10.8"/>
+        <vertex pan="-165.26" tilt="11.71"/>
+        <vertex pan="-164.04" tilt="-32.62"/>
+        <vertex pan="-140.5" tilt="-30.34"/>
+        <vertex pan="-140.5" tilt="-30.34"/>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node4">
-    <input leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-0.8" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node4" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-0.8" width="1344" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="" datetime="10.07.2019 08:42" copyright="" latitude="" comment="" title="Mischhalle" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Mischhalle" tags="CowView" latitude="" source="" description="" info="" author="" datetime="10.07.2019 08:42" comment="" longitude="" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node5">
-    <input leveltilesize="510" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="0.2" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node5" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="0.2" width="1344" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="" datetime="10.07.2019 08:46" copyright="" latitude="" comment="" title="Mischhalle_Gang" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Mischhalle_Gang" tags="CowView" latitude="" source="" description="" info="" author="" datetime="10.07.2019 08:46" comment="" longitude="" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
+      <polyhotspot title="Dusche" id="Poly01" target="" description="" url="{node3}">
+        <vertex pan="-164.21" tilt="8.9"/>
+        <vertex pan="-171.07" tilt="11.7"/>
+        <vertex pan="-170.33" tilt="-26.83"/>
+        <vertex pan="-164.39" tilt="-19.31"/>
+        <vertex pan="-164.39" tilt="-19.31"/>
+      </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node6">
-    <input leveltilesize="510" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="0.3" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node6" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="0.3" width="1344" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115814" datetime="10.07.2019 08:49" copyright="" latitude="47.953183" comment="" title="Behandlung" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Behandlung" tags="CowView" latitude="47.953183" source="" description="" info="" author="" datetime="10.07.2019 08:49" comment="" longitude="16.115814" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node7">
-    <input leveltilesize="510" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-0.7" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node7" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-0.7" width="1344" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115806" datetime="10.07.2019 08:56" copyright="" latitude="47.953189" comment="" title="Abkalbebox" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Abkalbebox" tags="CowView" latitude="47.953189" source="" description="" info="" author="" datetime="10.07.2019 08:56" comment="" longitude="16.115806" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node8">
-    <input leveltilesize="510" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node8" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1" width="1344" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115467" datetime="10.07.2019 09:01" copyright="" latitude="47.953411" comment="" title="Laufgang" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Laufgang" tags="CowView" latitude="47.953411" source="" description="" info="" author="" datetime="10.07.2019 09:01" comment="" longitude="16.115467" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node9">
-    <input leveltilesize="510" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1.6" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node9" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1.6" width="1344" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115817" datetime="10.07.2019 09:05" copyright="" latitude="47.953450" comment="" title="Fressplatz_Gang" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Fressplatz_Gang" tags="CowView" latitude="47.953450" source="" description="" info="" author="" datetime="10.07.2019 09:05" comment="" longitude="16.115817" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node10">
-    <input leveltilesize="510" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1.3" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node10" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1.3" width="1344" overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115817" datetime="10.07.2019 09:08" copyright="" latitude="47.953450" comment="" title="Fressplatz-innen" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Fressplatz-innen" tags="CowView" latitude="47.953450" source="" description="" info="" author="" datetime="10.07.2019 09:08" comment="" longitude="16.115817" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node11">
-    <input leveltilesize="510" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-2.2" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node11" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-2.2" width="1344" overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115817" datetime="10.07.2019 09:13" copyright="" latitude="47.953450" comment="" title="Einzelfutter_Forschungsbereich" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Einzelfutter_Forschungsbereich" tags="CowView" latitude="47.953450" source="" description="" info="" author="" datetime="10.07.2019 09:13" comment="" longitude="16.115817" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node12">
-    <input leveltilesize="510" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1.8" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node12" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1.8" width="1344" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115817" datetime="10.07.2019 09:19" copyright="" latitude="47.953450" comment="" title="Liegebox_Gang" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Liegebox_Gang" tags="CowView" latitude="47.953450" source="" description="" info="" author="" datetime="10.07.2019 09:19" comment="" longitude="16.115817" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node13">
-    <input leveltilesize="510" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node13" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1" width="1344" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115817" datetime="10.07.2019 09:28" copyright="" latitude="47.953450" comment="" title="Kraftfutter_Gang" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Kraftfutter_Gang" tags="CowView" latitude="47.953450" source="" description="" info="" author="" datetime="10.07.2019 09:28" comment="" longitude="16.115817" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node14">
-    <input leveltilesize="510" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1.5" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node14" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1.5" width="1344" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115817" datetime="10.07.2019 09:31" copyright="" latitude="47.953450" comment="" title="Liegebox 2" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Liegebox 2" tags="CowView" latitude="47.953450" source="" description="" info="" author="" datetime="10.07.2019 09:31" comment="" longitude="16.115817" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node15">
-    <input leveltilesize="510" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-2.3" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node15" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-2.3" width="1344" overlap="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.116872" datetime="10.07.2019 12:16" copyright="" latitude="47.952856" comment="" title="Liegefläche" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Liegefläche" tags="CowView" latitude="47.952856" source="" description="" info="" author="" datetime="10.07.2019 12:16" comment="" longitude="16.116872" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node16">
-    <input leveltilesize="510" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="0.2" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node16" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="0.2" width="1344" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115817" datetime="10.07.2019 09:24" copyright="" latitude="47.953450" comment="" title="Liegebox-innen" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Liegebox-innen" tags="CowView" latitude="47.953450" source="" description="" info="" author="" datetime="10.07.2019 09:24" comment="" longitude="16.115817" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node17">
-    <input leveltilesize="510" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="2.5" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node17" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="2.5" width="1344" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="" datetime="10.07.2019 11:19" copyright="" latitude="" comment="" title="Futterautomat" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Futterautomat" tags="CowView" latitude="" source="" description="" info="" author="" datetime="10.07.2019 11:19" comment="" longitude="" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node18">
-    <input leveltilesize="510" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1.3" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node18" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1.3" width="1344" overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115817" datetime="10.07.2019 09:36" copyright="" latitude="47.953450" comment="" title="Futtertisch" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Futtertisch" tags="CowView" latitude="47.953450" source="" description="" info="" author="" datetime="10.07.2019 09:36" comment="" longitude="16.115817" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node19">
-    <input leveltilesize="510" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1.4" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node19" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1.4" width="1344" overlap="1" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115517" datetime="10.07.2019 09:45" copyright="" latitude="47.953342" comment="" title="Laufgang" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Laufgang" tags="CowView" latitude="47.953342" source="" description="" info="" author="" datetime="10.07.2019 09:45" comment="" longitude="16.115517" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node20">
-    <input leveltilesize="510" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="2.6" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node20" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="2.6" width="1344" overlap="1" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="" datetime="10.07.2019 11:22" copyright="" latitude="" comment="" title="Futterautomat" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Futterautomat" tags="CowView" latitude="" source="" description="" info="" author="" datetime="10.07.2019 11:22" comment="" longitude="" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node21">
-    <input leveltilesize="510" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-0.3" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node21" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-0.3" width="1344" overlap="1" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115517" datetime="10.07.2019 09:46" copyright="" latitude="47.953342" comment="" title="Auslauf" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Auslauf" tags="CowView" latitude="47.953342" source="" description="" info="" author="" datetime="10.07.2019 09:46" comment="" longitude="16.115517" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node22">
-    <input leveltilesize="510" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-2.5" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node22" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-2.5" width="1344" overlap="1" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115147" datetime="10.07.2019 09:50" copyright="" latitude="47.953533" comment="" title="Gülle und Mistlager" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Gülle und Mistlager" tags="CowView" latitude="47.953533" source="" description="" info="" author="" datetime="10.07.2019 09:50" comment="" longitude="16.115147" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node23">
-    <input leveltilesize="510" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1.7" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node23" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1.7" width="1344" overlap="1" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115561" datetime="10.07.2019 09:42" copyright="" latitude="47.953436" comment="" title="Gülle" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Gülle" tags="CowView" latitude="47.953436" source="" description="" info="" author="" datetime="10.07.2019 09:42" comment="" longitude="16.115561" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node24">
-    <input leveltilesize="510" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="1" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node24" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="1" width="1344" overlap="1" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115061" datetime="10.07.2019 11:38" copyright="" latitude="47.953786" comment="" title="Vorwartebereich" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Vorwartebereich" tags="CowView" latitude="47.953786" source="" description="" info="" author="" datetime="10.07.2019 11:38" comment="" longitude="16.115061" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node25">
-    <input leveltilesize="510" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="0.7" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node25" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="0.7" width="1344" overlap="1" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115061" datetime="10.07.2019 11:40" copyright="" latitude="47.953786" comment="" title="Melkstand" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Melkstand" tags="CowView" latitude="47.953786" source="" description="" info="" author="" datetime="10.07.2019 11:40" comment="" longitude="16.115061" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node26">
-    <input leveltilesize="510" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="1.4" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node26" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="1.4" width="1344" overlap="1" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115156" datetime="10.07.2019 11:46" copyright="" latitude="47.953992" comment="" title="Milchraum" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Milchraum" tags="CowView" latitude="47.953992" source="" description="" info="" author="" datetime="10.07.2019 11:46" comment="" longitude="16.115156" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node27">
-    <input leveltilesize="510" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-2.9" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node27" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-2.9" width="1344" overlap="1" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115011" datetime="10.07.2019 09:54" copyright="" latitude="47.953761" comment="" title="Iglus" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Iglus" tags="CowView" latitude="47.953761" source="" description="" info="" author="" datetime="10.07.2019 09:54" comment="" longitude="16.115011" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node28">
-    <input leveltilesize="510" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="0.7" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node28" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="0.7" width="1344" overlap="1" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.114983" datetime="10.07.2019 09:57" copyright="" latitude="47.953389" comment="" title="Kälberstall_Gang" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Kälberstall_Gang" tags="CowView" latitude="47.953389" source="" description="" info="" author="" datetime="10.07.2019 09:57" comment="" longitude="16.114983" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node29">
-    <input leveltilesize="510" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1.6" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node29" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1.6" width="1344" overlap="1" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.114922" datetime="10.07.2019 10:04" copyright="" latitude="47.953292" comment="" title="Kälberstall" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Kälberstall" tags="CowView" latitude="47.953292" source="" description="" info="" author="" datetime="10.07.2019 10:04" comment="" longitude="16.114922" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node30">
-    <input leveltilesize="510" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-1.7" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node30" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-1.7" width="1344" overlap="1" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.114811" datetime="10.07.2019 10:07" copyright="" latitude="47.953569" comment="" title="Kälberhütte" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Kälberhütte" tags="CowView" latitude="47.953569" source="" description="" info="" author="" datetime="10.07.2019 10:07" comment="" longitude="16.114811" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node31">
-    <input leveltilesize="510" leveltileurl="tiles/node31/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-3.8" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node31" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-3.8" width="1344" overlap="1" leveltileurl="tiles/node31/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.114836" datetime="10.07.2019 10:18" copyright="" latitude="47.953386" comment="" title="Kälberbox_Iglus" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Kälberbox_Iglus" tags="CowView" latitude="47.953386" source="" description="" info="" author="" datetime="10.07.2019 10:18" comment="" longitude="16.114836" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node32">
-    <input leveltilesize="510" leveltileurl="tiles/node32/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="2.8" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node32" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="2.8" width="1344" overlap="1" leveltileurl="tiles/node32/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.114878" datetime="10.07.2019 11:27" copyright="" latitude="47.953481" comment="" title="Kälberstall_Übersicht" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Kälberstall_Übersicht" tags="CowView" latitude="47.953481" source="" description="" info="" author="" datetime="10.07.2019 11:27" comment="" longitude="16.114878" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node33">
-    <input leveltilesize="510" leveltileurl="tiles/node33/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="2" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node33" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="2" width="1344" overlap="1" leveltileurl="tiles/node33/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.114878" datetime="10.07.2019 11:29" copyright="" latitude="47.953633" comment="" title="Milchraum_Kälber" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Milchraum_Kälber" tags="CowView" latitude="47.953633" source="" description="" info="" author="" datetime="10.07.2019 11:29" comment="" longitude="16.114878" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node34">
-    <input leveltilesize="510" leveltileurl="tiles/node34/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-0.3" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node34" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-0.3" width="1344" overlap="1" leveltileurl="tiles/node34/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115800" datetime="10.07.2019 11:55" copyright="" latitude="47.953761" comment="" title="Futterküche" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Futterküche" tags="CowView" latitude="47.953761" source="" description="" info="" author="" datetime="10.07.2019 11:55" comment="" longitude="16.115800" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node35">
-    <input leveltilesize="510" leveltileurl="tiles/node35/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="0.2" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node35" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="0.2" width="1344" overlap="1" leveltileurl="tiles/node35/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115653" datetime="10.07.2019 12:00" copyright="" latitude="47.953761" comment="" title="Trockenanlage" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Trockenanlage" tags="CowView" latitude="47.953761" source="" description="" info="" author="" datetime="10.07.2019 12:00" comment="" longitude="16.115653" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node36">
-    <input leveltilesize="510" leveltileurl="tiles/node36/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-0.8" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node36" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-0.8" width="1344" overlap="1" leveltileurl="tiles/node36/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.115833" datetime="10.07.2019 12:02" copyright="" latitude="47.953653" comment="" title="Futterlager_Gang" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Futterlager_Gang" tags="CowView" latitude="47.953653" source="" description="" info="" author="" datetime="10.07.2019 12:02" comment="" longitude="16.115833" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node37">
-    <input leveltilesize="510" leveltileurl="tiles/node37/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="1344" levelingroll="-2" levelbias="0.400" width="1344">
-      <level predecode="0" height="1344" preload="0" width="1344"/>
-      <level predecode="0" height="672" preload="0" width="672"/>
-      <level predecode="1" height="336" preload="1" width="336"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node37" hideabout="1">
+    <input height="1344" levelbias="0.400" levelingroll="-2" width="1344" overlap="1" leveltileurl="tiles/node37/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="1344" preload="0" width="1344" predecode="0"/>
+      <level height="672" preload="0" width="672" predecode="0"/>
+      <level height="336" preload="1" width="336" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" pan="0" projection="4" fov="130"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fov="5"/>
-      <max tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360"/>
+      <start pan="0" fov="130" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" longitude="16.116456" datetime="10.07.2019 12:06" copyright="" latitude="47.953683" comment="" title="Futterlager" description="" author="" info="" tags="CowView" source=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" backgroundalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" background="1" textalpha="1" height="20" borderalpha="1" width="180" enabled="1" border="1" wordwrap="1"/>
-      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" backgroundcolor="0xaa0000" handcursor="1" borderalpha="1" mode="1"/>
+    <userdata copyright="" title="Futterlager" tags="CowView" latitude="47.953683" source="" description="" info="" author="" datetime="10.07.2019 12:06" comment="" longitude="16.116456" customnodeid=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" border="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0xaa0000" mode="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0xaa0000" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20" zoomin="2" softedge="0" enabled="1"/>
-    <control sensitivity="8" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="1" rubberband="0" simulatemass="1" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0"/>
+    <transition softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomspeed="2" enabled="1" blendtime="1" zoomin="2" type="crossdissolve" zoomout="0"/>
+    <control rubberband="0" sensitivity="8" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" hideabout="1" lockedwheel="0" lockedmouse="0" contextfullscreen="1" speedwheel="1" invertcontrol="1" contextprojections="0" lockedkeyboard="0"/>
   </panorama>
 </tour>
