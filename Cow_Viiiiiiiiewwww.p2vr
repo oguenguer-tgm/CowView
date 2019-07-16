@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig version="5.2.5" rev="15998">
+<pano2vrconfig rev="15998" version="5.2.5">
   <tour>
     <start>node1</start>
     <panorama>
@@ -87,8 +87,9 @@
           <type>point</type>
           <id>Point01</id>
           <title>Eingang VetFarm</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -1557,9 +1558,10 @@
           <type>point</type>
           <id>Point03</id>
           <title>Allgemeine Informationen zum Stall</title>
-          <description>Laufstall für Milchkühe
-Liegeboxenlaufstall mit Auslauf für laktierende Kühe (maximal 74), Milchleistung ca. 9000l 
-74 Liegeboxen – 78 Fressplätze 
+          <description>Beschreibung: Laufstall für MILCHkühe 
+
+Liegeboxenlaufstall mit Auslauf für laktierende Kühe (maximal 72), Milchleistung ca. 9500 kg 
+72 Liegeboxen – 72 Fressplätze 
 Kennzeichen Laufstall: 
 Trennung der Funktionsbereiche – Liegebereich, Laufbereich, Fressbereich, dadurch Optimierung möglich 
 Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche 
@@ -1607,6 +1609,26 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linksubtype>unknown</linksubtype>
           <url>{node15}</url>
           <skinid>ht_icon_cow_stehend</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-147.1</pan>
+            <tilt>-35.32</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <title>Abkalbeboxen</title>
+          <description>Beschreibung: 3 Buchten; teilweise Nutzung als Krankenbox</description>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
           <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
@@ -1950,6 +1972,27 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-71.06</pan>
+            <tilt>-30.29</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point08</id>
+          <title>Laufbereich</title>
+          <description>Beschreibung Breite wichtig mind. 2.50 bei Boxen, (hinter Freßgitter mind. 3.50) 
+möglichst keine Sackgassen (Ausweichen Rangniederer), bes. bei behornten Kühen </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
           <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
@@ -2727,6 +2770,32 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <skinid>ht_icon_cow_stehend</skinid>
           <autoplace>0</autoplace>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>104.48</pan>
+            <tilt>-24.87</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>Stohmistmatratze</title>
+          <description>Beschreibung: geschichtet trockener Mist, Stroh, festgestampft; bleibt 15-20 Jahre; Verrottungsprozess; in Wahlversuchen bevorzugt gegenüber Hochboxen mit Gummimattenauflage; .tirttsicher, verformbar, fest genug 
+Steuerungseinrichtungen: 
+-Seitentrennbügel (flexibel); 
+                    mind. 1,25 m lichte Weite; zu eng – Anschlagen beim Niederlegen (flexibel gut)                                  Behinderungen beim Liegen selbst; besser flexible Seitenabtrennungen 
+- Nackenriegel – hier flexible Nackenkette: zur Steuerung abkoten; mind. 1,20 m hoch; zu niedrig – Probleme beim Aufstehen – Anschlagen..(wenn fix). 
+Kopfraum: von Bugkante bis Wand (wenn vorhanden) oder störendes Brett wichtig lang genug! 
+Länge Liegebox: wandständig mindestens 2,40 cm, eher 2,80-3:00 lang sein (große Kühe!) </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -2915,6 +2984,26 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>80.98</pan>
+            <tilt>-22.29</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>Tränke</title>
+          <description>Beschreibung: Trogtränken, gut zu reinigen </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
           <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
@@ -3125,6 +3214,53 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <skinid>ht_icon_cow_stehend</skinid>
           <autoplace>0</autoplace>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>68.23</pan>
+            <tilt>-20.28</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>Liegeboxen</title>
+          <description>Beschreibung: Warum Liegeboxen? – Steuerung der Kühe – Platzersparnis 
+                                                           - Steuerung Kotanfall - Strohersparnis 
+Typ: Tiefbox mit Strohmistmatrazen 
+                    Strohverbrauch ca. 1 kg pro Kuh/Tag (Tiefstreu 10-12 kg / Kuh,Tag) 
+                    tägliche Pflege nötig (auch bei Hochboxen) 
+gegenständige und wandständige Boxen </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>8.75</pan>
+            <tilt>-72.57</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>Bodenausführung</title>
+          <description>Beschreibung: planbefestigt mit Gummimattenauflage und Schieberentmistung im Innenbereich (Schieber läuft 9x am Tag – Vorteil gegenüber Entmistung mit Hoftruck/Traktor – dann nur 1-2xtäglich) 
+Anforderung Oberfläche Trittsicherheit (rutschfest, ebenes Fußen), keine scharfen Kanten, keine (kleinen) Niveauunterschiede 
+Im Auslauf u. Wartebereich zum Melkstand Betonboden, noch möglich wäre Gußasphalt </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -3238,6 +3374,26 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <skinid>ht_icon_cow_stehend</skinid>
           <autoplace>0</autoplace>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-14.24</pan>
+            <tilt>-30.16</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>Freie Liegefläche</title>
+          <description>Beschreibung: wird 14-tägig komplett entmistet und neu eingestreut </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -3340,6 +3496,26 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <id>Poly02</id>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>87.76</pan>
+            <tilt>-58.07</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>Kotkante</title>
+          <description>Beschreibung Kotkante hinten und Bugholz vorne begrenzen die Liegefläche, 20 cm hoch, damit Strohmistmatzratze tief genug ist </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
       <output/>
@@ -3558,6 +3734,54 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>19.77</pan>
+            <tilt>-6.78</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>Selbstfang - Fressgitter</title>
+          <description>Beschreibung: einsperren nötig bei Fütterung von Kraftfutter oder anderen sehr begehrten und nur begrenzt verfügbaren Futtermitteln – Ruhe für rangtiefe Tiere
+praktisch auch für tierärztliche Behandlung
+(Problem: wenn keine gute Wartung – einzelne Tiere frei, andere fixiert; besonders problematisch bei behornten Tieren)
+ 
+Beschreibung: Hier Form Selbstfang: Parallelogramm / Scheren Fressgitter mit Neigung – Neigung entlastet Schulter, entspannteres Stehen (siehe erhöhter Futtertisch!) – Blick von der Seite! Schulter weiter cranial als Karpus 
+Parallelogramm / Scheren-Fressgitter: Selbstfang oben – Nachteil bei behornten Tieren wenn oben geschlossen – Verlassen des Fressgitters dauert teilweise länger, ev. Verletzungen durch Hornstoss;  hier wäre Palisaden-Freßgitter besser - oben offen – 
+((Nachteil bei Mutterkuhhaltung: ev. schwieriger für Kälber, da höheres Kopfheben nötig)) 
+Details: Schraubenkopf tierseitig (nicht Ende und Mutter) um Verletzungen zu vermeiden, unteres Ende – flexibles Rohr um Einklemmen Haut bzw. Halsband selbtfangen zu verhindern </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>18.25</pan>
+            <tilt>-17.18</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>erhöhter Futtertisch</title>
+          <description>Beschreibung: zum Ausgleich des parallelen Stehens (kein Weideschritt!) – im Laufstall 20-25cm – hier nur knapp 20 cm  
+aber auf der Seite mit den Säulen – Stufe im Bereich Vorderbeine (für den Schieber) – dadurch reduziert sich der Niveauunterschied Standniveau Kühe – Futtertisch auf 11 cm – ungünstig, Stufe zusätzlich ungünstig </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
           <autoplace>0</autoplace>
         </hotspot>
         <hotspot>
@@ -4053,6 +4277,47 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <autoplace>0</autoplace>
         </hotspot>
         <hotspot>
+          <position>
+            <pan>-6.33</pan>
+            <tilt>-34.9</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>Boden</title>
+          <description>Beschreibung: Beton, Reinigung mit Hoftrac oder Traktor </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>125.5</pan>
+            <tilt>10.93</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <title>Auslauf</title>
+          <description>Beschreibung: Einrichtung mit Tränke, Bürste – Auslauf attraktiver, Kratzeinrichtung nötig (ABER Zugang muss gewährleistet sein) 
+ – Sonnenbaden (Kühe stehen breitseits in der Sonne für max. Sonneneinstrahlung) ist Normalverhalten in kühlerer Jahreszeit;  Stoffwechsel, Wohlbefinden </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
           <position/>
           <next>
             <pan>0</pan>
@@ -4526,6 +4791,27 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <autoplace>0</autoplace>
         </hotspot>
         <hotspot>
+          <position>
+            <pan>20.65</pan>
+            <tilt>1.89</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>Warteraum</title>
+          <description>Beschreibung: 
+V-förmige Abweisstangen – damit Tiere Richtung Melkstandeingang orientiert sind (nicht im 90°Grad Winkel zu stehen) </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
           <position/>
           <next>
             <pan>0</pan>
@@ -4701,6 +4987,48 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linksubtype>unknown</linksubtype>
           <url>{node24}</url>
           <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>67.72</pan>
+            <tilt>-1.3</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>Melkablauf: Vormelken mit Vormelkbecher, Reinigen, Melkzeug ansetzen, Abnahmeautomatik wenn Milchfluss unter bestimmten Wert, Zitzendippen</title>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-52.35</pan>
+            <tilt>7.34</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>Melkstand</title>
+          <description>Beschreibung: 8er Tandemmelkstand = Einzelmelkstand –  Kuh hat eigenen Melkplatz – Vorteil: geschützt, weniger sozialer Stress, keine Wartezeiten durch längermelkende Kühe; Nachteil – höheres Platzbedarf und Investitionskosten im Vergleich zu Gruppenmelkständen 
+Andere Melkstandtypen: Fischgrät, Side-by-Sideoder Swing-over = Gruppenmelkstände – ganze Gruppe von Kühen auf einmal eingetrieben und gemeinsam ausgetrieben, langsamste Kuh bestimmt die Dauer im Melkstand für gesamte Gruppe 
+(nicht erwähnt bisher – Melkkarussell, Melkroboter) 
+  </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
           <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
@@ -5118,6 +5446,48 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linksubtype>unknown</linksubtype>
           <url>{node28}</url>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>8.28</pan>
+            <tilt>1.87</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>Iglus / Hütten außen</title>
+          <description>Beschreibung: hygienische Vorteile: Trennung vom Kuhstall und damit geringeres Keimdruck 
+ethologisch: Kuh Absonderung von der Herde zur Geburt; Kalb Ablieger, Mutter kommt ca. 8mal zum Tränken; erst nach ca. 5 Tagen mit Kalb in Herde zurück 
+Thermoregulation: wichtig trockene Einstreu, Kalb trocken, dann kein Problem auch im Winter (nicht krank!) </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>31.07</pan>
+            <tilt>8.13</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>Kälberhaltung Kremesberg</title>
+          <description>Beschreibung: Ablauf: Trennung einige Stunden nach der Geburt – in Iglus; dort ca. 2 Wochen; dann in Gruppenhaltung; </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -5508,6 +5878,47 @@ Kälber - Gruppenhaltung
           <linksubtype>unknown</linksubtype>
           <url>{node33}</url>
           <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>176.66</pan>
+            <tilt>-31.95</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <title>Kälberstall Gruppenhaltung</title>
+          <description>Beschreibung: Pflicht ab 8 Wochen (Ausnahme &lt;6 Kälber) 
+  
+Haltung hier recht gut – Liegefläche Tiefstreu, befestigter Freßplatz – wichtig für Klauenabrieb; 
+Heuraufe 
+Tränke (Wasser) 
+Eimertränke 2xtäglich – Alternative – größere Gruppen mit Tränkeautomat; auch ohne Tränkeautomat in Praxis meist größere Gruppen - > 10 Tiere ungünstig 
+  
+Problem: gegnseitiges Besaugen, bei Kälbern und später bei Jungvieh – an Euteranlage, Nabel, Scrotum 
+Folgen: Entzündungen, ev. Verlust Euterviertel – wirtschaftliche Relevanz 
+Gründe: normal: Saugen an Mutter 3-5mal pro Tag ab 2. Lebenswoche; dauert jeweils ca. 10 –15 min, Wechsel der Zitzen, Kopfstoß; dagegen Tränken 2 x täglich, in wenigen min leer – beim Trinken von Milch wird Saugtrieb ausgelöst, braucht gewisse Zeit zum Abbau, ev. Zusammenhang mit Glucosespiegel (nach US konnte durch Zugabe von Glucose in Milch gegenseitiges Besaugen verringert werden), Hunger 
+gegenseitiges Besaugen als Jungvieh - Zusammenhang mit Aufstallung (weniger wenn Aussenzugang, Offenfrontstall) und v.a. mit Fütterung beim Absetzen (Energiedefizit – mehr Besaugen; individuelles Absetz-Programm je nach Menge Kraftfutterverzehr reduziert ggs.Besaugen) 
+kein gegenseitiges Besaugen bei muttergebundener Kälberaufzucht (neueres Verfahren, noch in Weiterentwicklung, bisher kaum praktiziert da Milchverluste) 
+Stress, d.h. nicht tiergerechte Aufstallung fördert Besaugen 
+Abhilfen, die ggs. Besaugen verringern. 
+Fixieren nach der Tränke für ca. 20 min; dabei Futter verfügbar, Nuckel 
+Tränke verlängern (Schlauch kleiner – Problem Reinigung; Ventil – in Entwicklung für Tränkeautomaten) 
+Nuckel anordnen 
+Energieversorgung beim Absetzen 
+Aufstallung optimieren 
+bei Tränkeautomat Schutz der trinkenden Kälber und noch Fixierung für 10 min 
+  
+Eingriffe: Enthornen – Lokalanästhesie (keine zusätzliche Sedation), Schmerzmittel (seit 2017 vorgeschrieben nach TschG/ThaltungsVO </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_link</skinid>
           <autoplace>0</autoplace>
         </hotspot>
         <hotspot>
@@ -6747,26 +7158,6 @@ Kälber - Gruppenhaltung
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-161.382</pan>
-            <tilt>0</tilt>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point02</id>
-          <title>$ut</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node15}</url>
-          <target>$fwd</target>
-          <autoplace>1</autoplace>
         </hotspot>
         <hotspot>
           <position/>
