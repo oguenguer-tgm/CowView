@@ -611,7 +611,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>Ausgang</title>
+          <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node1}</url>
@@ -1075,7 +1075,7 @@
           <polygon/>
           <type>point</type>
           <id>Point04</id>
-          <title>Behandlung</title>
+          <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node6}</url>
@@ -1095,7 +1095,7 @@
           <polygon/>
           <type>point</type>
           <id>Point05</id>
-          <title>Dusche</title>
+          <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node3}</url>
@@ -1267,7 +1267,7 @@
           <polygon/>
           <type>point</type>
           <id>Point06</id>
-          <title>Mischhalle_Gang</title>
+          <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node5}</url>
@@ -1535,7 +1535,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>Behandlung</title>
+          <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node6}</url>
@@ -2633,9 +2633,30 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <polygon/>
           <type>point</type>
           <id>Point01</id>
+          <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node16}</url>
+          <skinid>ht_icon_cow_stehend</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-35.99</pan>
+            <tilt>0.5</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node13}</url>
           <skinid>ht_icon_cow_stehend</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -2687,16 +2708,16 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>164.49</pan>
-              <tilt>-22.46</tilt>
+              <pan>145.08</pan>
+              <tilt>-21.26</tilt>
             </vertex>
             <vertex>
-              <pan>164.94</pan>
-              <tilt>-31.22</tilt>
+              <pan>134.69</pan>
+              <tilt>-27.75</tilt>
             </vertex>
             <vertex>
-              <pan>154.5</pan>
-              <tilt>-28.97</tilt>
+              <pan>128.28</pan>
+              <tilt>-18.01</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -2718,20 +2739,20 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>162.76</pan>
-              <tilt>-30.93</tilt>
+              <pan>143.29</pan>
+              <tilt>-22.69</tilt>
             </vertex>
             <vertex>
-              <pan>157.82</pan>
-              <tilt>-36.51</tilt>
+              <pan>152.38</pan>
+              <tilt>-28.75</tilt>
             </vertex>
             <vertex>
-              <pan>152.11</pan>
-              <tilt>-34.47</tilt>
+              <pan>147.28</pan>
+              <tilt>-32.44</tilt>
             </vertex>
             <vertex>
-              <pan>156.43</pan>
-              <tilt>-29.61</tilt>
+              <pan>137.5</pan>
+              <tilt>-26.11</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -2743,6 +2764,72 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node14}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>177.6</pan>
+              <tilt>-20.26</tilt>
+            </vertex>
+            <vertex>
+              <pan>172.92</pan>
+              <tilt>-17.18</tilt>
+            </vertex>
+            <vertex>
+              <pan>-179.1</pan>
+              <tilt>-14.23</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly03</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node12}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>174.43</pan>
+              <tilt>-18.09</tilt>
+            </vertex>
+            <vertex>
+              <pan>169.43</pan>
+              <tilt>-23.25</tilt>
+            </vertex>
+            <vertex>
+              <pan>171.85</pan>
+              <tilt>-24.96</tilt>
+            </vertex>
+            <vertex>
+              <pan>176.4</pan>
+              <tilt>-19.46</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly04</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node12}</url>
         </hotspot>
       </hotspots>
       <output/>
@@ -2761,16 +2848,33 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>166.54</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>-7.69</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>120</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>166.54</pan>
+          <tilt>-7.69</tilt>
+          <fov>120</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2019-07-16T08:26:42</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953450</latitude>
@@ -2792,16 +2896,16 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>-4.35</pan>
-              <tilt>-13.23</tilt>
+              <pan>-5.06</pan>
+              <tilt>-21.05</tilt>
             </vertex>
             <vertex>
-              <pan>1.16</pan>
-              <tilt>-24.41</tilt>
+              <pan>1.04</pan>
+              <tilt>-28.91</tilt>
             </vertex>
             <vertex>
-              <pan>-10.35</pan>
-              <tilt>-24.06</tilt>
+              <pan>-11.67</pan>
+              <tilt>-29.24</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -2823,20 +2927,20 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>-2.32</pan>
-              <tilt>-24.4</tilt>
+              <pan>-2.29</pan>
+              <tilt>-29.12</tilt>
             </vertex>
             <vertex>
-              <pan>-2.32</pan>
-              <tilt>-32.66</tilt>
+              <pan>-2.05</pan>
+              <tilt>-36.86</tilt>
             </vertex>
             <vertex>
-              <pan>-7.8</pan>
-              <tilt>-32.44</tilt>
+              <pan>-8.83</pan>
+              <tilt>-37.51</tilt>
             </vertex>
             <vertex>
-              <pan>-7.51</pan>
-              <tilt>-24.23</tilt>
+              <pan>-8.25</pan>
+              <tilt>-29.35</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -2878,7 +2982,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node13}</url>
+          <url>{node20}</url>
         </hotspot>
         <hotspot>
           <position/>
@@ -2914,6 +3018,26 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node20}</url>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>30</pan>
+            <tilt>1.27</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node13}</url>
+          <skinid>ht_icon_cow_stehend</skinid>
+          <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
       <output/>
@@ -3068,24 +3192,68 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
       <floorplans/>
       <hotspots>
         <hotspot>
-          <position>
-            <pan>176.58</pan>
-            <tilt>-23.92</tilt>
-          </position>
+          <position/>
           <next>
             <pan>0</pan>
             <tilt>0</tilt>
             <fov>0</fov>
           </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point01</id>
+          <polygon>
+            <vertex>
+              <pan>164.7</pan>
+              <tilt>-21.08</tilt>
+            </vertex>
+            <vertex>
+              <pan>165.43</pan>
+              <tilt>-28.59</tilt>
+            </vertex>
+            <vertex>
+              <pan>154.41</pan>
+              <tilt>-23.57</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
           <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node12}</url>
-          <skinid>ht_icon_cow_stehend</skinid>
-          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>164.88</pan>
+              <tilt>-22.99</tilt>
+            </vertex>
+            <vertex>
+              <pan>176.28</pan>
+              <tilt>-23.61</tilt>
+            </vertex>
+            <vertex>
+              <pan>176.35</pan>
+              <tilt>-27.17</tilt>
+            </vertex>
+            <vertex>
+              <pan>165.42</pan>
+              <tilt>-26.24</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly02</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
         </hotspot>
       </hotspots>
       <output/>
@@ -3350,16 +3518,33 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>128.88</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>11.58</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>120</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>128.88</pan>
+          <tilt>11.58</tilt>
+          <fov>120</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2019-07-16T08:40:02</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <datetime>10.07.2019 11:22</datetime>
@@ -3445,16 +3630,16 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>-23.44</pan>
-              <tilt>-21.34</tilt>
+              <pan>-22.42</pan>
+              <tilt>-6.06</tilt>
             </vertex>
             <vertex>
-              <pan>-20.11</pan>
-              <tilt>-31.16</tilt>
+              <pan>-22.43</pan>
+              <tilt>-11.99</tilt>
             </vertex>
             <vertex>
-              <pan>-30.64</pan>
-              <tilt>-29.87</tilt>
+              <pan>-12.62</pan>
+              <tilt>-8.65</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -3476,20 +3661,20 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>-23.03</pan>
-              <tilt>-31.01</tilt>
+              <pan>-22.43</pan>
+              <tilt>-7.44</tilt>
             </vertex>
             <vertex>
-              <pan>-23.71</pan>
-              <tilt>-36.25</tilt>
+              <pan>-29.8</pan>
+              <tilt>-6.84</tilt>
             </vertex>
             <vertex>
-              <pan>-28.59</pan>
-              <tilt>-35.29</tilt>
+              <pan>-29.76</pan>
+              <tilt>-10.35</tilt>
             </vertex>
             <vertex>
-              <pan>-27.13</pan>
-              <tilt>-30.39</tilt>
+              <pan>-22.15</pan>
+              <tilt>-10.41</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -3501,6 +3686,72 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node14}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>-19.68</pan>
+              <tilt>-19.43</tilt>
+            </vertex>
+            <vertex>
+              <pan>-28.51</pan>
+              <tilt>-21.69</tilt>
+            </vertex>
+            <vertex>
+              <pan>-27.48</pan>
+              <tilt>-14.03</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly05</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node21}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>-21.62</pan>
+              <tilt>-19.69</tilt>
+            </vertex>
+            <vertex>
+              <pan>-17.57</pan>
+              <tilt>-26.6</tilt>
+            </vertex>
+            <vertex>
+              <pan>-21.65</pan>
+              <tilt>-28.11</tilt>
+            </vertex>
+            <vertex>
+              <pan>-25.76</pan>
+              <tilt>-21.07</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly06</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node21}</url>
         </hotspot>
         <hotspot>
           <position>
@@ -3559,6 +3810,26 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>78.58</pan>
+            <tilt>-3.67</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node13}</url>
+          <skinid>ht_icon_cow_stehend</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -3598,26 +3869,6 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
       </userdata>
       <floorplans/>
       <hotspots>
-        <hotspot>
-          <position>
-            <pan>170.3</pan>
-            <tilt>0.1</tilt>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point01</id>
-          <title>$ut</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node25}</url>
-          <skinid>ht_icon_cow_stehend</skinid>
-          <autoplace>0</autoplace>
-        </hotspot>
         <hotspot>
           <position>
             <pan>-33.74</pan>
@@ -3669,9 +3920,10 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <polygon/>
           <type>point</type>
           <id>Point04</id>
-          <title>Liegebox_Gang</title>
-          <linktype>info</linktype>
+          <title>$ut</title>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node12}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -3774,6 +4026,72 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node22}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>174.62</pan>
+              <tilt>-9.81</tilt>
+            </vertex>
+            <vertex>
+              <pan>179.8</pan>
+              <tilt>-18.4</tilt>
+            </vertex>
+            <vertex>
+              <pan>169.71</pan>
+              <tilt>-18.41</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly04</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node24}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>177.08</pan>
+              <tilt>-18.45</tilt>
+            </vertex>
+            <vertex>
+              <pan>177.03</pan>
+              <tilt>-25.37</tilt>
+            </vertex>
+            <vertex>
+              <pan>172.75</pan>
+              <tilt>-25.38</tilt>
+            </vertex>
+            <vertex>
+              <pan>172.7</pan>
+              <tilt>-18.46</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly05</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node24}</url>
         </hotspot>
       </hotspots>
       <output/>
@@ -3918,6 +4236,72 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linksubtype>unknown</linksubtype>
           <url>{node24}</url>
         </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>172.15</pan>
+              <tilt>-18.66</tilt>
+            </vertex>
+            <vertex>
+              <pan>173</pan>
+              <tilt>-26.76</tilt>
+            </vertex>
+            <vertex>
+              <pan>-176.91</pan>
+              <tilt>-20.35</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly03</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node21}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>171.97</pan>
+              <tilt>-19.99</tilt>
+            </vertex>
+            <vertex>
+              <pan>160.32</pan>
+              <tilt>-22.21</tilt>
+            </vertex>
+            <vertex>
+              <pan>160.36</pan>
+              <tilt>-28.79</tilt>
+            </vertex>
+            <vertex>
+              <pan>172.8</pan>
+              <tilt>-25.28</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly04</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node21}</url>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -3990,8 +4374,9 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <type>point</type>
           <id>Point02</id>
           <title>Eingang Melkstand</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node25}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -4009,8 +4394,9 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <type>point</type>
           <id>Point03</id>
           <title>Der Weg zum Iglus</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node27}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -4099,16 +4485,33 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>-176.56</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>0.3</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>100</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>-176.56</pan>
+          <tilt>-0.3</tilt>
+          <fov>120</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2019-07-16T08:50:23</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953786</latitude>
@@ -4151,10 +4554,29 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </polygon>
           <type>poly</type>
           <id>Poly01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node24}</url>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-3.63</pan>
+            <tilt>2.22</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
           <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node24}</url>
+          <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
       <output/>
@@ -4191,6 +4613,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <datetime>10.07.2019 11:46</datetime>
         <tags>CowView</tags>
         <title>Milchraum</title>
+        <description>Milchraum</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -4391,6 +4814,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </polygon>
           <type>poly</type>
           <id>Poly01</id>
+          <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node26}</url>
@@ -4404,8 +4828,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>-41.66</pan>
-              <tilt>-3.23</tilt>
+              <pan>-41.4</pan>
+              <tilt>-3.45</tilt>
             </vertex>
             <vertex>
               <pan>-37.43</pan>
@@ -4517,8 +4941,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
               <tilt>-39.36</tilt>
             </vertex>
             <vertex>
-              <pan>170.61</pan>
-              <tilt>-29.35</tilt>
+              <pan>170.22</pan>
+              <tilt>-29</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -4579,72 +5003,6 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>57.51</pan>
-              <tilt>-4.63</tilt>
-            </vertex>
-            <vertex>
-              <pan>58.76</pan>
-              <tilt>-11.92</tilt>
-            </vertex>
-            <vertex>
-              <pan>54.53</pan>
-              <tilt>-12.36</tilt>
-            </vertex>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <title>$ut</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node27}</url>
-        </hotspot>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon>
-            <vertex>
-              <pan>57.8</pan>
-              <tilt>-11.88</tilt>
-            </vertex>
-            <vertex>
-              <pan>57</pan>
-              <tilt>-18.88</tilt>
-            </vertex>
-            <vertex>
-              <pan>54.23</pan>
-              <tilt>-18.99</tilt>
-            </vertex>
-            <vertex>
-              <pan>55.84</pan>
-              <tilt>-12.22</tilt>
-            </vertex>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly02</id>
-          <title>$ut</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node27}</url>
-        </hotspot>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon>
-            <vertex>
               <pan>-82.63</pan>
               <tilt>-10.24</tilt>
             </vertex>
@@ -4676,8 +5034,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>-76.67</pan>
-              <tilt>-17.58</tilt>
+              <pan>-76.46</pan>
+              <tilt>-17.33</tilt>
             </vertex>
             <vertex>
               <pan>-71.62</pan>
@@ -4688,8 +5046,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
               <tilt>-27.8</tilt>
             </vertex>
             <vertex>
-              <pan>-80.32</pan>
-              <tilt>-18.27</tilt>
+              <pan>-80.81</pan>
+              <tilt>-18.42</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -4701,76 +5059,6 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node22}</url>
-        </hotspot>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon>
-            <vertex>
-              <pan>170.29</pan>
-              <tilt>-9.51</tilt>
-            </vertex>
-            <vertex>
-              <pan>178.04</pan>
-              <tilt>-18.78</tilt>
-            </vertex>
-            <vertex>
-              <pan>168.47</pan>
-              <tilt>-18.89</tilt>
-            </vertex>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly05</id>
-          <title>$ut</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node29}</url>
-        </hotspot>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon>
-            <vertex>
-              <pan>175.99</pan>
-              <tilt>-18.85</tilt>
-            </vertex>
-            <vertex>
-              <pan>177.56</pan>
-              <tilt>-27.27</tilt>
-            </vertex>
-            <vertex>
-              <pan>177.56</pan>
-              <tilt>-27.27</tilt>
-            </vertex>
-            <vertex>
-              <pan>171.32</pan>
-              <tilt>-26.68</tilt>
-            </vertex>
-            <vertex>
-              <pan>171.19</pan>
-              <tilt>-18.67</tilt>
-            </vertex>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly06</id>
-          <title>$ut</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node29}</url>
         </hotspot>
         <hotspot>
           <position/>
@@ -4801,7 +5089,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node33}</url>
+          <url>{node29}</url>
         </hotspot>
         <hotspot>
           <position/>
@@ -4813,7 +5101,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <polygon>
             <vertex>
               <pan>152.83</pan>
-              <tilt>-23.3</tilt>
+              <tilt>-23.69</tilt>
             </vertex>
             <vertex>
               <pan>159.42</pan>
@@ -4824,8 +5112,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
               <tilt>-31.43</tilt>
             </vertex>
             <vertex>
-              <pan>150.57</pan>
-              <tilt>-25.46</tilt>
+              <pan>149.62</pan>
+              <tilt>-25.62</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -4836,7 +5124,73 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node33}</url>
+          <url>{node29}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>55.56</pan>
+              <tilt>-4.46</tilt>
+            </vertex>
+            <vertex>
+              <pan>60.46</pan>
+              <tilt>-12.74</tilt>
+            </vertex>
+            <vertex>
+              <pan>49.81</pan>
+              <tilt>-13.07</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node27}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>57.83</pan>
+              <tilt>-12.79</tilt>
+            </vertex>
+            <vertex>
+              <pan>58.52</pan>
+              <tilt>-21.44</tilt>
+            </vertex>
+            <vertex>
+              <pan>53.39</pan>
+              <tilt>-21.81</tilt>
+            </vertex>
+            <vertex>
+              <pan>53.55</pan>
+              <tilt>-13.08</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly02</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node27}</url>
         </hotspot>
       </hotspots>
       <output/>
@@ -4855,16 +5209,33 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>-99.66</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>-4.35</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>100</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>-99.66</pan>
+          <tilt>-4.35</tilt>
+          <fov>100</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2019-07-16T09:01:30</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953292</latitude>
@@ -4920,7 +5291,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <hotspot>
           <position>
             <pan>-176.5</pan>
-            <tilt>-0.05</tilt>
+            <tilt>0.12</tilt>
           </position>
           <next>
             <pan>0</pan>
@@ -4931,8 +5302,29 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <type>point</type>
           <id>Point03</id>
           <title>Kälberstall_Gang</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node28}</url>
+          <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-142.87</pan>
+            <tilt>-1</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node33}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -4977,6 +5369,40 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node28}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>-137.49</pan>
+              <tilt>2.29</tilt>
+            </vertex>
+            <vertex>
+              <pan>-137.46</pan>
+              <tilt>-4.66</tilt>
+            </vertex>
+            <vertex>
+              <pan>-148.14</pan>
+              <tilt>-4.81</tilt>
+            </vertex>
+            <vertex>
+              <pan>-148.14</pan>
+              <tilt>2.36</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node33}</url>
         </hotspot>
       </hotspots>
       <output/>
@@ -5094,6 +5520,41 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <skinid>ht_icon_cow_stehend</skinid>
           <autoplace>0</autoplace>
         </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>177.34</pan>
+              <tilt>18.57</tilt>
+            </vertex>
+            <vertex>
+              <pan>139.35</pan>
+              <tilt>12.66</tilt>
+            </vertex>
+            <vertex>
+              <pan>139.58</pan>
+              <tilt>-20.7</tilt>
+            </vertex>
+            <vertex>
+              <pan>177.58</pan>
+              <tilt>-28.64</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node33}</url>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -5111,16 +5572,33 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>153</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>-8.34</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>100</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>153.34</pan>
+          <tilt>8.34</tilt>
+          <fov>100</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2019-07-16T08:57:59</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953386</latitude>
@@ -5188,7 +5666,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node29}</url>
-          <skinid>ht_info_blau</skinid>
+          <skinid>ht_icon_cow_stehend</skinid>
           <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
@@ -5263,8 +5741,28 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <type>point</type>
           <id>Point02</id>
           <title>Kälberstall_Gang</title>
-          <linktype>info</linktype>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-146.09</pan>
+            <tilt>-3.97</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node30}</url>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
         </hotspot>
@@ -5301,6 +5799,40 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node28}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>-129.26</pan>
+              <tilt>10.63</tilt>
+            </vertex>
+            <vertex>
+              <pan>-167.29</pan>
+              <tilt>14.8</tilt>
+            </vertex>
+            <vertex>
+              <pan>-167.18</pan>
+              <tilt>-32.61</tilt>
+            </vertex>
+            <vertex>
+              <pan>-128.93</pan>
+              <tilt>-22.4</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node30}</url>
         </hotspot>
       </hotspots>
       <output/>
@@ -5497,8 +6029,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
               <tilt>-16.4</tilt>
             </vertex>
             <vertex>
-              <pan>-47.29</pan>
-              <tilt>-10.26</tilt>
+              <pan>-47.25</pan>
+              <tilt>-10.81</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -5675,8 +6207,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>95.16</pan>
-              <tilt>-31.01</tilt>
+              <pan>94.9</pan>
+              <tilt>-30.58</tilt>
             </vertex>
             <vertex>
               <pan>103.78</pan>
@@ -5881,16 +6413,16 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>-14.07</pan>
-              <tilt>-6.33</tilt>
+              <pan>-8.66</pan>
+              <tilt>-7.36</tilt>
             </vertex>
             <vertex>
-              <pan>-10.37</pan>
-              <tilt>-12.61</tilt>
+              <pan>-15.88</pan>
+              <tilt>-9.01</tilt>
             </vertex>
             <vertex>
-              <pan>-19.26</pan>
-              <tilt>-12.77</tilt>
+              <pan>-15.6</pan>
+              <tilt>-3.48</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -5912,20 +6444,20 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           </next>
           <polygon>
             <vertex>
-              <pan>-13.48</pan>
-              <tilt>-12.86</tilt>
+              <pan>-10.64</pan>
+              <tilt>-8.08</tilt>
             </vertex>
             <vertex>
-              <pan>-13.39</pan>
-              <tilt>-20.18</tilt>
+              <pan>-6.1</pan>
+              <tilt>-15.93</tilt>
             </vertex>
             <vertex>
-              <pan>-19.53</pan>
-              <tilt>-20.56</tilt>
+              <pan>-9.53</pan>
+              <tilt>-17.13</tilt>
             </vertex>
             <vertex>
-              <pan>-16.43</pan>
-              <tilt>-12.83</tilt>
+              <pan>-13.7</pan>
+              <tilt>-8.54</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -6033,26 +6565,6 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-161.382</pan>
-            <tilt>0</tilt>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point02</id>
-          <title>$ut</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node15}</url>
-          <target>$fwd</target>
-          <autoplace>1</autoplace>
         </hotspot>
         <hotspot>
           <position/>

@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.2.5/15998
 // Filename: CowView_Skin.ggsk
-// Generated Mo. Jul 15 15:28:30 2019
+// Generated Di. Jul 16 09:11:05 2019
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -2275,86 +2275,6 @@ function pano2vrSkin(player,base) {
 			this._ht_link_icon.ggUpdatePosition=function (useTransition) {
 			}
 			this.__div.appendChild(this._ht_link_icon);
-			this._ht_link_description_title=document.createElement('div');
-			this._ht_link_description_title__text=document.createElement('div');
-			this._ht_link_description_title.className='ggskin ggskin_textdiv';
-			this._ht_link_description_title.ggTextDiv=this._ht_link_description_title__text;
-			this._ht_link_description_title.ggId="ht_link_description_title";
-			this._ht_link_description_title.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-			this._ht_link_description_title.ggVisible=false;
-			this._ht_link_description_title.className='ggskin ggskin_text ';
-			this._ht_link_description_title.ggType='text';
-			hs ='';
-			hs+='z-index: 100;';
-			hs+='cursor : pointer;';
-			hs+='height : 11px;';
-			hs+='left : -772px;';
-			hs+='opacity : 0.89999;';
-			hs+='position : absolute;';
-			hs+='top : -264px;';
-			hs+='visibility : hidden;';
-			hs+='width : 289px;';
-			hs+='pointer-events:auto;';
-			this._ht_link_description_title.setAttribute('style',hs);
-			this._ht_link_description_title.style[domTransform + 'Origin']='0% 0%';
-			hs ='position:absolute;';
-			hs+='left: 0px;';
-			hs+='top:  0px;';
-			hs+='width: 289px;';
-			hs+='height: auto;';
-			hs+='background: #0c0c0c;';
-			hs+='background: rgba(12,12,12,0.705882);';
-			hs+='border: 5px solid #f8f8f8;';
-			hs+='border-radius: 10px;';
-			hs+=cssPrefix + 'border-radius: 10px;';
-			hs+='color: rgba(250,250,250,1);';
-			hs+='text-align: left;';
-			hs+='white-space: pre-wrap;';
-			hs+='padding: 4px 5px 4px 5px;';
-			hs+='overflow: hidden;';
-			this._ht_link_description_title__text.setAttribute('style',hs);
-			this._ht_link_description_title__text.innerHTML=me.hotspot.description;
-			this._ht_link_description_title.appendChild(this._ht_link_description_title__text);
-			me._ht_link_description_title.ggIsActive=function() {
-				if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-					return this.parentNode.ggIsActive();
-				}
-				return false;
-			}
-			me._ht_link_description_title.ggElementNodeId=function() {
-				if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-					return this.parentNode.ggElementNodeId();
-				}
-				return me.ggNodeId;
-			}
-			me._ht_link_description_title.ggCurrentLogicStateVisible = -1;
-			this._ht_link_description_title.ggUpdateConditionTimer=function () {
-				var newLogicStateVisible;
-				if (
-					(me.elementMouseOver['_div'] == true)
-				)
-				{
-					newLogicStateVisible = 0;
-				}
-				else {
-					newLogicStateVisible = -1;
-				}
-				if (me._ht_link_description_title.ggCurrentLogicStateVisible != newLogicStateVisible) {
-					me._ht_link_description_title.ggCurrentLogicStateVisible = newLogicStateVisible;
-					me._ht_link_description_title.style[domTransition]='';
-					if (me._ht_link_description_title.ggCurrentLogicStateVisible == 0) {
-						me._ht_link_description_title.style.visibility=(Number(me._ht_link_description_title.style.opacity)>0||!me._ht_link_description_title.style.opacity)?'inherit':'hidden';
-						me._ht_link_description_title.ggVisible=true;
-					}
-					else {
-						me._ht_link_description_title.style.visibility="hidden";
-						me._ht_link_description_title.ggVisible=false;
-					}
-				}
-			}
-			this._ht_link_description_title.ggUpdatePosition=function (useTransition) {
-			}
-			this.__div.appendChild(this._ht_link_description_title);
 			this._ht_link_title=document.createElement('div');
 			this._ht_link_title__text=document.createElement('div');
 			this._ht_link_title.className='ggskin ggskin_textdiv';
@@ -2435,12 +2355,92 @@ function pano2vrSkin(player,base) {
 			this._ht_link_title.ggUpdatePosition=function (useTransition) {
 			}
 			this.__div.appendChild(this._ht_link_title);
+			this._ht_link_description_title=document.createElement('div');
+			this._ht_link_description_title__text=document.createElement('div');
+			this._ht_link_description_title.className='ggskin ggskin_textdiv';
+			this._ht_link_description_title.ggTextDiv=this._ht_link_description_title__text;
+			this._ht_link_description_title.ggId="ht_link_description_title";
+			this._ht_link_description_title.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._ht_link_description_title.ggVisible=false;
+			this._ht_link_description_title.className='ggskin ggskin_text ';
+			this._ht_link_description_title.ggType='text';
+			hs ='';
+			hs+='z-index: 100;';
+			hs+='cursor : pointer;';
+			hs+='height : 11px;';
+			hs+='left : -472px;';
+			hs+='opacity : 0.89999;';
+			hs+='position : absolute;';
+			hs+='top : -304px;';
+			hs+='visibility : hidden;';
+			hs+='width : 289px;';
+			hs+='pointer-events:auto;';
+			this._ht_link_description_title.setAttribute('style',hs);
+			this._ht_link_description_title.style[domTransform + 'Origin']='0% 0%';
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: 289px;';
+			hs+='height: auto;';
+			hs+='background: #0c0c0c;';
+			hs+='background: rgba(12,12,12,0.705882);';
+			hs+='border: 5px solid #f8f8f8;';
+			hs+='border-radius: 10px;';
+			hs+=cssPrefix + 'border-radius: 10px;';
+			hs+='color: rgba(250,250,250,1);';
+			hs+='text-align: left;';
+			hs+='white-space: pre-wrap;';
+			hs+='padding: 4px 5px 4px 5px;';
+			hs+='overflow: hidden;';
+			this._ht_link_description_title__text.setAttribute('style',hs);
+			this._ht_link_description_title__text.innerHTML=me.hotspot.description;
+			this._ht_link_description_title.appendChild(this._ht_link_description_title__text);
+			me._ht_link_description_title.ggIsActive=function() {
+				if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+					return this.parentNode.ggIsActive();
+				}
+				return false;
+			}
+			me._ht_link_description_title.ggElementNodeId=function() {
+				if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+					return this.parentNode.ggElementNodeId();
+				}
+				return me.ggNodeId;
+			}
+			me._ht_link_description_title.ggCurrentLogicStateVisible = -1;
+			this._ht_link_description_title.ggUpdateConditionTimer=function () {
+				var newLogicStateVisible;
+				if (
+					(me.elementMouseOver['_div'] == true)
+				)
+				{
+					newLogicStateVisible = 0;
+				}
+				else {
+					newLogicStateVisible = -1;
+				}
+				if (me._ht_link_description_title.ggCurrentLogicStateVisible != newLogicStateVisible) {
+					me._ht_link_description_title.ggCurrentLogicStateVisible = newLogicStateVisible;
+					me._ht_link_description_title.style[domTransition]='';
+					if (me._ht_link_description_title.ggCurrentLogicStateVisible == 0) {
+						me._ht_link_description_title.style.visibility=(Number(me._ht_link_description_title.style.opacity)>0||!me._ht_link_description_title.style.opacity)?'inherit':'hidden';
+						me._ht_link_description_title.ggVisible=true;
+					}
+					else {
+						me._ht_link_description_title.style.visibility="hidden";
+						me._ht_link_description_title.ggVisible=false;
+					}
+				}
+			}
+			this._ht_link_description_title.ggUpdatePosition=function (useTransition) {
+			}
+			this.__div.appendChild(this._ht_link_description_title);
 			this.hotspotTimerEvent=function() {
 				setTimeout(function() { me.hotspotTimerEvent(); }, 10);
 				if (me.elementMouseOver['_div']) {
 				}
-				me._ht_link_description_title.ggUpdateConditionTimer();
 				me._ht_link_title.ggUpdateConditionTimer();
+				me._ht_link_description_title.ggUpdateConditionTimer();
 			}
 			this.hotspotTimerEvent();
 		}
