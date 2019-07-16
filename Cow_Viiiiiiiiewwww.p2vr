@@ -1957,8 +1957,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         </hotspot>
         <hotspot>
           <position>
-            <pan>8.28</pan>
-            <tilt>-0.98</tilt>
+            <pan>8.08</pan>
+            <tilt>-0.97</tilt>
           </position>
           <next>
             <pan>0</pan>
@@ -1971,7 +1971,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <title>Automatischer Mistschieber</title>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
-          <skinid>ht_info_blau</skinid>
+          <skinid>ht_info_blau_1</skinid>
           <autoplace>0</autoplace>
         </hotspot>
         <hotspot>
