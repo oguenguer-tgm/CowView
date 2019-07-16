@@ -761,7 +761,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>Getreidesilo</title>
+          <title>Waage</title>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
@@ -883,6 +883,7 @@
         <tags>CowView</tags>
         <title>Mischhalle_Gang</title>
         <altitude>-10000</altitude>
+        <description>Mischhalle_Gang</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -1037,7 +1038,7 @@
           <polygon/>
           <type>point</type>
           <id>Point02</id>
-          <title>Getreidesilo</title>
+          <title>Waage</title>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
@@ -1154,7 +1155,7 @@
         <datetime>10.07.2019 08:49</datetime>
         <tags>CowView</tags>
         <title>Behandlung</title>
-        <description>Behandlund</description>
+        <description>Behandlung</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -1171,7 +1172,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>Stallapotheke</title>
+          <title>Zugang Stallapotheke</title>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
@@ -1228,7 +1229,7 @@
           <polygon/>
           <type>point</type>
           <id>Point04</id>
-          <title>Behandlungsbox / Krankenbox</title>
+          <title>Kälberbox</title>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
@@ -2003,7 +2004,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>Futterautomat</title>
+          <title>Fütterungsroboter</title>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
@@ -2114,6 +2115,72 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linksubtype>unknown</linksubtype>
           <url>{node18}</url>
         </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>-80.08</pan>
+              <tilt>-13.48</tilt>
+            </vertex>
+            <vertex>
+              <pan>-73.99</pan>
+              <tilt>-21.39</tilt>
+            </vertex>
+            <vertex>
+              <pan>-85.49</pan>
+              <tilt>-22.8</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly03</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <vertex>
+              <pan>-76.33</pan>
+              <tilt>-21.79</tilt>
+            </vertex>
+            <vertex>
+              <pan>-76.24</pan>
+              <tilt>-29.78</tilt>
+            </vertex>
+            <vertex>
+              <pan>-81.72</pan>
+              <tilt>-30.18</tilt>
+            </vertex>
+            <vertex>
+              <pan>-81.54</pan>
+              <tilt>-22.33</tilt>
+            </vertex>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly04</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -2148,8 +2215,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <altitude>422</altitude>
         <datetime>10.07.2019 09:08</datetime>
         <tags>CowView</tags>
-        <title>Fressplatz-innen</title>
-        <description>Fressbereich-innen</description>
+        <title>Fressbereich  - Einzelfutterstrecke</title>
+        <description>Fressbereich  - Einzelfutterstrecke</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -2254,7 +2321,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <datetime>10.07.2019 09:13</datetime>
         <tags>CowView</tags>
         <title>Einzelfutter_Forschungsbereich</title>
-        <description>Forschungsbereich - Einzelfutterstrecke</description>
+        <description>Forschungsbereich Einzelfutterstrecke </description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -2418,7 +2485,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <datetime>10.07.2019 09:19</datetime>
         <tags>CowView</tags>
         <title>Liegebox_Gang</title>
-        <description>Liegebox und Laufgang</description>
+        <description>Liegeboxen und Laufgang</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -2694,8 +2761,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <altitude>422</altitude>
         <datetime>10.07.2019 09:28</datetime>
         <tags>CowView</tags>
-        <title>Kraftfutter_Gang</title>
-        <description>Laufgang Kraftfutter</description>
+        <title>Kraftfutterstationen - Gang </title>
+        <description>Laufgang und Kraftfutterstationen</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -2831,6 +2898,25 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linksubtype>unknown</linksubtype>
           <url>{node12}</url>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-109.66</pan>
+            <tilt>-3.94</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>Kraftfutterstation</title>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -2883,7 +2969,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <datetime>10.07.2019 09:31</datetime>
         <tags>CowView</tags>
         <title>Liegebox 2</title>
-        <description>Liegebox 2</description>
+        <description>Liegebereich</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -3073,8 +3159,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <altitude>438</altitude>
         <datetime>10.07.2019 12:16</datetime>
         <tags>CowView</tags>
-        <title>Liegefläche</title>
-        <description>Liegefläche</description>
+        <title>Forschungsbereich Liegefläche</title>
+        <description>Forschungsbereich Freie Liegefläche </description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -3286,9 +3372,9 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
       <userdata>
         <datetime>10.07.2019 11:19</datetime>
         <tags>CowView</tags>
-        <title>Futterautomat</title>
+        <title>Fütterungssystem</title>
         <altitude>-10000</altitude>
-        <description>Futterautomat</description>
+        <description>Futterroboter</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -3309,6 +3395,45 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-34.23</pan>
+            <tilt>-12.2</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>Fressgitter</title>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>5.84</pan>
+            <tilt>-12.01</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node18}</url>
+          <skinid>ht_icon_cow_stehend</skinid>
           <autoplace>0</autoplace>
         </hotspot>
         <hotspot>
@@ -3418,8 +3543,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
       <hotspots>
         <hotspot>
           <position>
-            <pan>-4.59</pan>
-            <tilt>-4.52</tilt>
+            <pan>-34.41</pan>
+            <tilt>-9.28</tilt>
           </position>
           <next>
             <pan>0</pan>
@@ -4373,7 +4498,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <polygon/>
           <type>point</type>
           <id>Point02</id>
-          <title>Eingang Melkstand</title>
+          <title>Eingang Melkstand Melker</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node25}</url>
@@ -4749,6 +4874,44 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <linksubtype>unknown</linksubtype>
           <url>{node34}</url>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-42.24</pan>
+            <tilt>3.33</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>Milchtank</title>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>6.36</pan>
+            <tilt>-13.2</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>Auszeichnungen</title>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_info_blau</skinid>
+          <autoplace>0</autoplace>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -4783,7 +4946,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <altitude>442</altitude>
         <datetime>10.07.2019 09:54</datetime>
         <tags>CowView</tags>
-        <title>Iglus</title>
+        <title>Kälber-Iglus</title>
         <description>Kälberiglus</description>
       </userdata>
       <floorplans/>
@@ -4972,16 +5135,33 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>-145.69</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>-8.23</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>120</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>-145.69</pan>
+          <tilt>-8.23</tilt>
+          <fov>120</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>rectilinear</flyinprojection>
+        <defaultviewtimestamp>2019-07-16T11:22:50</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953389</latitude>
@@ -4990,7 +5170,9 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <datetime>10.07.2019 09:57</datetime>
         <tags>CowView</tags>
         <title>Kälberstall_Gang</title>
-        <description>Außengang zum Kälberstall</description>
+        <description>Außengang zum Kälberstall -
+Kälber - Gruppenhaltung
+</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -5243,8 +5425,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <altitude>443</altitude>
         <datetime>10.07.2019 10:04</datetime>
         <tags>CowView</tags>
-        <title>Kälberstall</title>
-        <description>Kälberstall Gruppenhaltung</description>
+        <title>Kälber-Gruppenhaltung</title>
+        <description>Kälberstall und Gruppenhaltung</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -5439,7 +5621,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <datetime>10.07.2019 10:07</datetime>
         <tags>CowView</tags>
         <title>Kälberhütte</title>
-        <description>Kälbergruppenhaltung Hütte "Boxsicht"</description>
+        <description>Kälber - Gruppenhaltung Hütte „Boxsicht“</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -5607,7 +5789,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <datetime>10.07.2019 10:18</datetime>
         <tags>CowView</tags>
         <title>Kälberbox_Iglus</title>
-        <description>Kälbergruppenhaltung Iglus</description>
+        <description>Kälber – Gruppenhaltung: Gruppen Iglus</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -5869,7 +6051,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <datetime>10.07.2019 11:55</datetime>
         <tags>CowView</tags>
         <title>Futterküche</title>
-        <description>Futterküche</description>
+        <description>Futterküche außen</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -6143,8 +6325,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <altitude>455</altitude>
         <datetime>10.07.2019 12:00</datetime>
         <tags>CowView</tags>
-        <title>Trockenanlage</title>
-        <description>Futterküche und Tockenanlage</description>
+        <title>Futterküche - innen </title>
+        <description>Mischbereich</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -6267,8 +6449,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <altitude>450</altitude>
         <datetime>10.07.2019 12:02</datetime>
         <tags>CowView</tags>
-        <title>Futterlager_Gang</title>
-        <description>Futterlager Gang</description>
+        <title>Futterlager</title>
+        <description>Futterlager</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -6483,7 +6665,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>Heuballen</title>
+          <title>Heuballen auf der Trocknungsanlage</title>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
@@ -6542,8 +6724,8 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
         <altitude>458</altitude>
         <datetime>10.07.2019 12:06</datetime>
         <tags>CowView</tags>
-        <title>Futterlager</title>
-        <description>Futterlager</description>
+        <title>Fahrsilos</title>
+        <description>Fahrsilos</description>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -6560,11 +6742,31 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>Trockenfutterlager</title>
+          <title>Fahrsilos</title>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_blau</skinid>
           <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-161.382</pan>
+            <tilt>0</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>$ut</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node15}</url>
+          <target>$fwd</target>
+          <autoplace>1</autoplace>
         </hotspot>
         <hotspot>
           <position/>
