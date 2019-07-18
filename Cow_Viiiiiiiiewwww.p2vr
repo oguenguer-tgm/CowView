@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="15998" version="5.2.5">
+<pano2vrconfig version="5.2.5" rev="15998">
   <tour>
     <start>node1</start>
     <panorama>
@@ -186,15 +186,32 @@
       <viewingparameter>
         <pan>
           <start>0</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
           <start>0</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
           <start>130</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>-175.97</pan>
+          <tilt>-1.92</tilt>
+          <fov>120</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>rectilinear</flyinprojection>
+        <defaultviewtimestamp>2019-07-18T15:37:17</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953278</latitude>
@@ -504,8 +521,8 @@
           <maxfovfisheye>360</maxfovfisheye>
         </fov>
         <flyinstart>
-          <pan>-165</pan>
-          <tilt>-10</tilt>
+          <pan>0</pan>
+          <tilt>0</tilt>
           <fov>120</fov>
         </flyinstart>
         <pannorth>0</pannorth>
@@ -1546,7 +1563,7 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>141.92</pan>
+            <pan>141.64</pan>
             <tilt>1.92</tilt>
           </position>
           <next>
@@ -2910,8 +2927,8 @@ Länge Liegebox: wandständig mindestens 2,40 cm, eher 2,80-3:00 lang sein (gro�
           </next>
           <polygon>
             <vertex>
-              <pan>177.6</pan>
-              <tilt>-20.26</tilt>
+              <pan>178.59</pan>
+              <tilt>-21.46</tilt>
             </vertex>
             <vertex>
               <pan>172.92</pan>
@@ -2941,8 +2958,8 @@ Länge Liegebox: wandständig mindestens 2,40 cm, eher 2,80-3:00 lang sein (gro�
           </next>
           <polygon>
             <vertex>
-              <pan>174.43</pan>
-              <tilt>-18.09</tilt>
+              <pan>174.5</pan>
+              <tilt>-18.52</tilt>
             </vertex>
             <vertex>
               <pan>169.43</pan>
@@ -2953,8 +2970,8 @@ Länge Liegebox: wandständig mindestens 2,40 cm, eher 2,80-3:00 lang sein (gro�
               <tilt>-24.96</tilt>
             </vertex>
             <vertex>
-              <pan>176.4</pan>
-              <tilt>-19.46</tilt>
+              <pan>176.69</pan>
+              <tilt>-20.13</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -5048,16 +5065,33 @@ Andere Melkstandtypen: Fischgrät, Side-by-Sideoder Swing-over = Gruppenmelkstä
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>-45</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>-1.6</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>120</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>-45.82</pan>
+          <tilt>-1.6</tilt>
+          <fov>120</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2019-07-17T15:58:41</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953992</latitude>
@@ -6719,16 +6753,33 @@ Eingriffe: Enthornen – Lokalanästhesie (keine zusätzliche Sedation), Schmerz
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>-110.91</start>
+          <min>0</min>
+          <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>-5.51</start>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>120</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
-        <flyinstart/>
+        <flyinstart>
+          <pan>-110.91</pan>
+          <tilt>-5.51</tilt>
+          <fov>120</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>rectilinear</flyinprojection>
+        <defaultviewtimestamp>2019-07-17T15:56:57</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953761</latitude>
