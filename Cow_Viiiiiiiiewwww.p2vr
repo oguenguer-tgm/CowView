@@ -195,7 +195,7 @@
           <max>90</max>
         </tilt>
         <fov>
-          <start>130</start>
+          <start>173</start>
           <minunit>degrees</minunit>
           <min>5</min>
           <max>120</max>
@@ -203,15 +203,15 @@
           <maxfovfisheye>360</maxfovfisheye>
         </fov>
         <flyinstart>
-          <pan>-175.97</pan>
-          <tilt>-1.92</tilt>
-          <fov>120</fov>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>170</fov>
         </flyinstart>
         <pannorth>0</pannorth>
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>rectilinear</flyinprojection>
-        <defaultviewtimestamp>2019-07-18T15:37:17</defaultviewtimestamp>
+        <defaultviewtimestamp>2019-07-19T15:10:00</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <latitude>47.953278</latitude>
@@ -418,7 +418,6 @@
           </polygon>
           <type>poly</type>
           <id>Poly02</id>
-          <title>$ut</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node3}</url>
@@ -503,12 +502,12 @@
       </input>
       <viewingparameter>
         <pan>
-          <start>-165</start>
+          <start>-162.32</start>
           <min>0</min>
           <max>360</max>
         </pan>
         <tilt>
-          <start>-10</start>
+          <start>-5.79</start>
           <min>-90</min>
           <max>90</max>
         </tilt>
@@ -522,14 +521,14 @@
         </fov>
         <flyinstart>
           <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>120</fov>
+          <tilt>-90</tilt>
+          <fov>170</fov>
         </flyinstart>
         <pannorth>0</pannorth>
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>rectilinear</flyinprojection>
-        <defaultviewtimestamp>2019-07-15T15:08:36</defaultviewtimestamp>
+        <defaultviewtimestamp>2019-07-19T15:10:50</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <datetime>10.07.2019 08:30</datetime>
@@ -595,8 +594,8 @@
               <tilt>11.71</tilt>
             </vertex>
             <vertex>
-              <pan>-164.04</pan>
-              <tilt>-32.62</tilt>
+              <pan>-163.55</pan>
+              <tilt>-33.02</tilt>
             </vertex>
             <vertex>
               <pan>-140.5</pan>
@@ -4039,8 +4038,8 @@ aber auf der Seite mit den Säulen – Stufe im Bereich Vorderbeine (für den Sc
               <tilt>-10.35</tilt>
             </vertex>
             <vertex>
-              <pan>-22.15</pan>
-              <tilt>-10.41</tilt>
+              <pan>-22.33</pan>
+              <tilt>-10.5</tilt>
             </vertex>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
@@ -4093,8 +4092,8 @@ aber auf der Seite mit den Säulen – Stufe im Bereich Vorderbeine (für den Sc
           </next>
           <polygon>
             <vertex>
-              <pan>-21.62</pan>
-              <tilt>-19.69</tilt>
+              <pan>-21.58</pan>
+              <tilt>-20.08</tilt>
             </vertex>
             <vertex>
               <pan>-17.57</pan>
@@ -7358,13 +7357,13 @@ Eingriffe: Enthornen – Lokalanästhesie (keine zusätzliche Sedation), Schmerz
           <filename>output-1/index.html</filename>
           <values>
             <value id="css"/>
-            <value id="gginfo">false</value>
+            <value id="gginfo">true</value>
             <value id="gyro">false</value>
             <value id="gyrodisable">false</value>
             <value id="gyronorth">false</value>
             <value id="gyroroll">false</value>
             <value id="gyrosmooth">true</value>
-            <value id="jsxml">false</value>
+            <value id="jsxml">true</value>
             <value id="parseanchor">false</value>
             <value id="swf"/>
             <value id="swffirst">false</value>
@@ -7390,6 +7389,7 @@ Eingriffe: Enthornen – Lokalanästhesie (keine zusätzliche Sedation), Schmerz
         <fullscreencontext>1</fullscreencontext>
         <hideaboutbox>1</hideaboutbox>
         <skinfile>$d/CowView_Skin.ggsk</skinfile>
+        <leveltileenabled>1</leveltileenabled>
       </htmlcss>
       <thumb>
         <html>
@@ -7414,6 +7414,52 @@ Eingriffe: Enthornen – Lokalanästhesie (keine zusätzliche Sedation), Schmerz
         <hotspotstyle/>
         <tilesize>1344</tilesize>
         <filename>output-2/pano.xml</filename>
+      </htmlcss>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output-1/index.html</filename>
+          <values>
+            <value id="css"/>
+            <value id="gginfo">true</value>
+            <value id="gyro">true</value>
+            <value id="gyrodisable">true</value>
+            <value id="gyronorth">true</value>
+            <value id="gyroroll">true</value>
+            <value id="gyrosmooth">true</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">true</value>
+            <value id="swf"/>
+            <value id="swffirst">false</value>
+            <value id="swfgeneric">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition/>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <tilesize>1344</tilesize>
+        <filename>output-3/pano.xml</filename>
+        <skinfile>$d/CowView_Skin.ggsk</skinfile>
+      </htmlcss>
+      <htmlcss>
+        <html>
+          <values/>
+          <enabled>1</enabled>
+          <filename>output-4/index.html</filename>
+        </html>
+        <facequality/>
+        <transition/>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <tilesize>1344</tilesize>
+        <filename>output-4/pano.xml</filename>
       </htmlcss>
     </output>
     <streetview/>
