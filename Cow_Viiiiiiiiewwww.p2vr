@@ -167,39 +167,6 @@
           <linksubtype>unknown</linksubtype>
           <url>{node1}</url>
         </hotspot>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon>
-            <vertex>
-              <pan>26.18</pan>
-              <tilt>26.07</tilt>
-            </vertex>
-            <vertex>
-              <pan>-22.88</pan>
-              <tilt>22.33</tilt>
-            </vertex>
-            <vertex>
-              <pan>-16.95</pan>
-              <tilt>-18.61</tilt>
-            </vertex>
-            <vertex>
-              <pan>25.43</pan>
-              <tilt>-16.37</tilt>
-            </vertex>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly03</id>
-          <linktype>url</linktype>
-          <linksubtype>unknown</linksubtype>
-        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -1607,13 +1574,13 @@
           <type>point</type>
           <id>Point03</id>
           <title>Allgemeine Informationen zum Stall</title>
-          <description>Beschreibung: Laufstall für MILCHkühe &#xd;
-&#xd;
-Liegeboxenlaufstall mit Auslauf für laktierende Kühe (maximal 72), Milchleistung ca. 9500 kg &#xd;
-72 Liegeboxen – 72 Fressplätze &#xd;
-Kennzeichen Laufstall: &#xd;
-Trennung der Funktionsbereiche – Liegebereich, Laufbereich, Fressbereich, dadurch Optimierung möglich &#xd;
-Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche &#xd;
+          <description>Beschreibung: Laufstall für MILCHkühe &#xd;&#xd;
+&#xd;&#xd;
+Liegeboxenlaufstall mit Auslauf für laktierende Kühe (maximal 72), Milchleistung ca. 9500 kg &#xd;&#xd;
+72 Liegeboxen – 72 Fressplätze &#xd;&#xd;
+Kennzeichen Laufstall: &#xd;&#xd;
+Trennung der Funktionsbereiche – Liegebereich, Laufbereich, Fressbereich, dadurch Optimierung möglich &#xd;&#xd;
+Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche &#xd;&#xd;
 2. Stukturierung, Anordnung der einzelnen Bereiche und zugehörigen Einrichtungen z.B. Tränke, Bürste (Verteilung von Ressourcen) </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -2037,7 +2004,7 @@ Wichtig für Optimierung: 1. Ausführung der Details der verschiedenen Bereiche 
           <type>point</type>
           <id>Point08</id>
           <title>Laufbereich</title>
-          <description>Beschreibung Breite wichtig mind. 2.50 bei Boxen, (hinter Freßgitter mind. 3.50) &#xd;
+          <description>Beschreibung Breite wichtig mind. 2.50 bei Boxen, (hinter Freßgitter mind. 3.50) &#xd;&#xd;
 möglichst keine Sackgassen (Ausweichen Rangniederer), bes. bei behornten Kühen </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -2833,12 +2800,12 @@ möglichst keine Sackgassen (Ausweichen Rangniederer), bes. bei behornten Kühen
           <type>point</type>
           <id>Point03</id>
           <title>Stohmistmatratze</title>
-          <description>Beschreibung: geschichtet trockener Mist, Stroh, festgestampft; bleibt 15-20 Jahre; Verrottungsprozess; in Wahlversuchen bevorzugt gegenüber Hochboxen mit Gummimattenauflage; .tirttsicher, verformbar, fest genug &#xd;
-Steuerungseinrichtungen: &#xd;
--Seitentrennbügel (flexibel); &#xd;
-                    mind. 1,25 m lichte Weite; zu eng – Anschlagen beim Niederlegen (flexibel gut)                                  Behinderungen beim Liegen selbst; besser flexible Seitenabtrennungen &#xd;
-- Nackenriegel – hier flexible Nackenkette: zur Steuerung abkoten; mind. 1,20 m hoch; zu niedrig – Probleme beim Aufstehen – Anschlagen..(wenn fix). &#xd;
-Kopfraum: von Bugkante bis Wand (wenn vorhanden) oder störendes Brett wichtig lang genug! &#xd;
+          <description>Beschreibung: geschichtet trockener Mist, Stroh, festgestampft; bleibt 15-20 Jahre; Verrottungsprozess; in Wahlversuchen bevorzugt gegenüber Hochboxen mit Gummimattenauflage; .tirttsicher, verformbar, fest genug &#xd;&#xd;
+Steuerungseinrichtungen: &#xd;&#xd;
+-Seitentrennbügel (flexibel); &#xd;&#xd;
+                    mind. 1,25 m lichte Weite; zu eng – Anschlagen beim Niederlegen (flexibel gut)                                  Behinderungen beim Liegen selbst; besser flexible Seitenabtrennungen &#xd;&#xd;
+- Nackenriegel – hier flexible Nackenkette: zur Steuerung abkoten; mind. 1,20 m hoch; zu niedrig – Probleme beim Aufstehen – Anschlagen..(wenn fix). &#xd;&#xd;
+Kopfraum: von Bugkante bis Wand (wenn vorhanden) oder störendes Brett wichtig lang genug! &#xd;&#xd;
 Länge Liegebox: wandständig mindestens 2,40 cm, eher 2,80-3:00 lang sein (große Kühe!) </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -3277,11 +3244,11 @@ Länge Liegebox: wandständig mindestens 2,40 cm, eher 2,80-3:00 lang sein (gro�
           <type>point</type>
           <id>Point02</id>
           <title>Liegeboxen</title>
-          <description>Beschreibung: Warum Liegeboxen? – Steuerung der Kühe – Platzersparnis &#xd;
-                                                           - Steuerung Kotanfall - Strohersparnis &#xd;
-Typ: Tiefbox mit Strohmistmatrazen &#xd;
-                    Strohverbrauch ca. 1 kg pro Kuh/Tag (Tiefstreu 10-12 kg / Kuh,Tag) &#xd;
-                    tägliche Pflege nötig (auch bei Hochboxen) &#xd;
+          <description>Beschreibung: Warum Liegeboxen? – Steuerung der Kühe – Platzersparnis &#xd;&#xd;
+                                                           - Steuerung Kotanfall - Strohersparnis &#xd;&#xd;
+Typ: Tiefbox mit Strohmistmatrazen &#xd;&#xd;
+                    Strohverbrauch ca. 1 kg pro Kuh/Tag (Tiefstreu 10-12 kg / Kuh,Tag) &#xd;&#xd;
+                    tägliche Pflege nötig (auch bei Hochboxen) &#xd;&#xd;
 gegenständige und wandständige Boxen </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -3302,8 +3269,8 @@ gegenständige und wandständige Boxen </description>
           <type>point</type>
           <id>Point03</id>
           <title>Bodenausführung</title>
-          <description>Beschreibung: planbefestigt mit Gummimattenauflage und Schieberentmistung im Innenbereich (Schieber läuft 9x am Tag – Vorteil gegenüber Entmistung mit Hoftruck/Traktor – dann nur 1-2xtäglich) &#xd;
-Anforderung Oberfläche Trittsicherheit (rutschfest, ebenes Fußen), keine scharfen Kanten, keine (kleinen) Niveauunterschiede &#xd;
+          <description>Beschreibung: planbefestigt mit Gummimattenauflage und Schieberentmistung im Innenbereich (Schieber läuft 9x am Tag – Vorteil gegenüber Entmistung mit Hoftruck/Traktor – dann nur 1-2xtäglich) &#xd;&#xd;
+Anforderung Oberfläche Trittsicherheit (rutschfest, ebenes Fußen), keine scharfen Kanten, keine (kleinen) Niveauunterschiede &#xd;&#xd;
 Im Auslauf u. Wartebereich zum Melkstand Betonboden, noch möglich wäre Gußasphalt </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -3799,13 +3766,13 @@ Im Auslauf u. Wartebereich zum Melkstand Betonboden, noch möglich wäre Gußasp
           <type>point</type>
           <id>Point02</id>
           <title>Selbstfang - Fressgitter</title>
-          <description>Beschreibung: einsperren nötig bei Fütterung von Kraftfutter oder anderen sehr begehrten und nur begrenzt verfügbaren Futtermitteln – Ruhe für rangtiefe Tiere&#xd;
-praktisch auch für tierärztliche Behandlung&#xd;
-(Problem: wenn keine gute Wartung – einzelne Tiere frei, andere fixiert; besonders problematisch bei behornten Tieren)&#xd;
- &#xd;
-Beschreibung: Hier Form Selbstfang: Parallelogramm / Scheren Fressgitter mit Neigung – Neigung entlastet Schulter, entspannteres Stehen (siehe erhöhter Futtertisch!) – Blick von der Seite! Schulter weiter cranial als Karpus &#xd;
-Parallelogramm / Scheren-Fressgitter: Selbstfang oben – Nachteil bei behornten Tieren wenn oben geschlossen – Verlassen des Fressgitters dauert teilweise länger, ev. Verletzungen durch Hornstoss;  hier wäre Palisaden-Freßgitter besser - oben offen – &#xd;
-((Nachteil bei Mutterkuhhaltung: ev. schwieriger für Kälber, da höheres Kopfheben nötig)) &#xd;
+          <description>Beschreibung: einsperren nötig bei Fütterung von Kraftfutter oder anderen sehr begehrten und nur begrenzt verfügbaren Futtermitteln – Ruhe für rangtiefe Tiere&#xd;&#xd;
+praktisch auch für tierärztliche Behandlung&#xd;&#xd;
+(Problem: wenn keine gute Wartung – einzelne Tiere frei, andere fixiert; besonders problematisch bei behornten Tieren)&#xd;&#xd;
+ &#xd;&#xd;
+Beschreibung: Hier Form Selbstfang: Parallelogramm / Scheren Fressgitter mit Neigung – Neigung entlastet Schulter, entspannteres Stehen (siehe erhöhter Futtertisch!) – Blick von der Seite! Schulter weiter cranial als Karpus &#xd;&#xd;
+Parallelogramm / Scheren-Fressgitter: Selbstfang oben – Nachteil bei behornten Tieren wenn oben geschlossen – Verlassen des Fressgitters dauert teilweise länger, ev. Verletzungen durch Hornstoss;  hier wäre Palisaden-Freßgitter besser - oben offen – &#xd;&#xd;
+((Nachteil bei Mutterkuhhaltung: ev. schwieriger für Kälber, da höheres Kopfheben nötig)) &#xd;&#xd;
 Details: Schraubenkopf tierseitig (nicht Ende und Mutter) um Verletzungen zu vermeiden, unteres Ende – flexibles Rohr um Einklemmen Haut bzw. Halsband selbtfangen zu verhindern </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -3826,7 +3793,7 @@ Details: Schraubenkopf tierseitig (nicht Ende und Mutter) um Verletzungen zu ver
           <type>point</type>
           <id>Point03</id>
           <title>erhöhter Futtertisch</title>
-          <description>Beschreibung: zum Ausgleich des parallelen Stehens (kein Weideschritt!) – im Laufstall 20-25cm – hier nur knapp 20 cm  &#xd;
+          <description>Beschreibung: zum Ausgleich des parallelen Stehens (kein Weideschritt!) – im Laufstall 20-25cm – hier nur knapp 20 cm  &#xd;&#xd;
 aber auf der Seite mit den Säulen – Stufe im Bereich Vorderbeine (für den Schieber) – dadurch reduziert sich der Niveauunterschied Standniveau Kühe – Futtertisch auf 11 cm – ungünstig, Stufe zusätzlich ungünstig </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -4359,7 +4326,7 @@ aber auf der Seite mit den Säulen – Stufe im Bereich Vorderbeine (für den Sc
           <type>point</type>
           <id>Point05</id>
           <title>Auslauf</title>
-          <description>Beschreibung: Einrichtung mit Tränke, Bürste – Auslauf attraktiver, Kratzeinrichtung nötig (ABER Zugang muss gewährleistet sein) &#xd;
+          <description>Beschreibung: Einrichtung mit Tränke, Bürste – Auslauf attraktiver, Kratzeinrichtung nötig (ABER Zugang muss gewährleistet sein) &#xd;&#xd;
  – Sonnenbaden (Kühe stehen breitseits in der Sonne für max. Sonneneinstrahlung) ist Normalverhalten in kühlerer Jahreszeit;  Stoffwechsel, Wohlbefinden </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -4853,7 +4820,7 @@ aber auf der Seite mit den Säulen – Stufe im Bereich Vorderbeine (für den Sc
           <type>point</type>
           <id>Point04</id>
           <title>Warteraum</title>
-          <description>Beschreibung: &#xd;
+          <description>Beschreibung: &#xd;&#xd;
 V-förmige Abweisstangen – damit Tiere Richtung Melkstandeingang orientiert sind (nicht im 90°Grad Winkel zu stehen) </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -5071,9 +5038,9 @@ V-förmige Abweisstangen – damit Tiere Richtung Melkstandeingang orientiert si
           <type>point</type>
           <id>Point03</id>
           <title>Melkstand</title>
-          <description>Beschreibung: 8er Tandemmelkstand = Einzelmelkstand –  Kuh hat eigenen Melkplatz – Vorteil: geschützt, weniger sozialer Stress, keine Wartezeiten durch längermelkende Kühe; Nachteil – höheres Platzbedarf und Investitionskosten im Vergleich zu Gruppenmelkständen &#xd;
-Andere Melkstandtypen: Fischgrät, Side-by-Sideoder Swing-over = Gruppenmelkstände – ganze Gruppe von Kühen auf einmal eingetrieben und gemeinsam ausgetrieben, langsamste Kuh bestimmt die Dauer im Melkstand für gesamte Gruppe &#xd;
-(nicht erwähnt bisher – Melkkarussell, Melkroboter) &#xd;
+          <description>Beschreibung: 8er Tandemmelkstand = Einzelmelkstand –  Kuh hat eigenen Melkplatz – Vorteil: geschützt, weniger sozialer Stress, keine Wartezeiten durch längermelkende Kühe; Nachteil – höheres Platzbedarf und Investitionskosten im Vergleich zu Gruppenmelkständen &#xd;&#xd;
+Andere Melkstandtypen: Fischgrät, Side-by-Sideoder Swing-over = Gruppenmelkstände – ganze Gruppe von Kühen auf einmal eingetrieben und gemeinsam ausgetrieben, langsamste Kuh bestimmt die Dauer im Melkstand für gesamte Gruppe &#xd;&#xd;
+(nicht erwähnt bisher – Melkkarussell, Melkroboter) &#xd;&#xd;
   </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -5526,8 +5493,8 @@ Andere Melkstandtypen: Fischgrät, Side-by-Sideoder Swing-over = Gruppenmelkstä
           <type>point</type>
           <id>Point01</id>
           <title>Iglus / Hütten außen</title>
-          <description>Beschreibung: hygienische Vorteile: Trennung vom Kuhstall und damit geringeres Keimdruck &#xd;
-ethologisch: Kuh Absonderung von der Herde zur Geburt; Kalb Ablieger, Mutter kommt ca. 8mal zum Tränken; erst nach ca. 5 Tagen mit Kalb in Herde zurück &#xd;
+          <description>Beschreibung: hygienische Vorteile: Trennung vom Kuhstall und damit geringeres Keimdruck &#xd;&#xd;
+ethologisch: Kuh Absonderung von der Herde zur Geburt; Kalb Ablieger, Mutter kommt ca. 8mal zum Tränken; erst nach ca. 5 Tagen mit Kalb in Herde zurück &#xd;&#xd;
 Thermoregulation: wichtig trockene Einstreu, Kalb trocken, dann kein Problem auch im Winter (nicht krank!) </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
@@ -5606,8 +5573,8 @@ Thermoregulation: wichtig trockene Einstreu, Kalb trocken, dann kein Problem auc
         <datetime>10.07.2019 09:57</datetime>
         <tags>CowView</tags>
         <title>Kälberstall_Gang</title>
-        <description>Außengang zum Kälberstall -&#xd;
-Kälber - Gruppenhaltung&#xd;
+        <description>Außengang zum Kälberstall -&#xd;&#xd;
+Kälber - Gruppenhaltung&#xd;&#xd;
 </description>
       </userdata>
       <floorplans/>
@@ -5960,27 +5927,27 @@ Kälber - Gruppenhaltung&#xd;
           <type>point</type>
           <id>Point05</id>
           <title>Kälberstall Gruppenhaltung</title>
-          <description>Beschreibung: Pflicht ab 8 Wochen (Ausnahme &lt;6 Kälber) &#xd;
-  &#xd;
-Haltung hier recht gut – Liegefläche Tiefstreu, befestigter Freßplatz – wichtig für Klauenabrieb; &#xd;
-Heuraufe &#xd;
-Tränke (Wasser) &#xd;
-Eimertränke 2xtäglich – Alternative – größere Gruppen mit Tränkeautomat; auch ohne Tränkeautomat in Praxis meist größere Gruppen - > 10 Tiere ungünstig &#xd;
-  &#xd;
-Problem: gegnseitiges Besaugen, bei Kälbern und später bei Jungvieh – an Euteranlage, Nabel, Scrotum &#xd;
-Folgen: Entzündungen, ev. Verlust Euterviertel – wirtschaftliche Relevanz &#xd;
-Gründe: normal: Saugen an Mutter 3-5mal pro Tag ab 2. Lebenswoche; dauert jeweils ca. 10 –15 min, Wechsel der Zitzen, Kopfstoß; dagegen Tränken 2 x täglich, in wenigen min leer – beim Trinken von Milch wird Saugtrieb ausgelöst, braucht gewisse Zeit zum Abbau, ev. Zusammenhang mit Glucosespiegel (nach US konnte durch Zugabe von Glucose in Milch gegenseitiges Besaugen verringert werden), Hunger &#xd;
-gegenseitiges Besaugen als Jungvieh - Zusammenhang mit Aufstallung (weniger wenn Aussenzugang, Offenfrontstall) und v.a. mit Fütterung beim Absetzen (Energiedefizit – mehr Besaugen; individuelles Absetz-Programm je nach Menge Kraftfutterverzehr reduziert ggs.Besaugen) &#xd;
-kein gegenseitiges Besaugen bei muttergebundener Kälberaufzucht (neueres Verfahren, noch in Weiterentwicklung, bisher kaum praktiziert da Milchverluste) &#xd;
-Stress, d.h. nicht tiergerechte Aufstallung fördert Besaugen &#xd;
-Abhilfen, die ggs. Besaugen verringern. &#xd;
-Fixieren nach der Tränke für ca. 20 min; dabei Futter verfügbar, Nuckel &#xd;
-Tränke verlängern (Schlauch kleiner – Problem Reinigung; Ventil – in Entwicklung für Tränkeautomaten) &#xd;
-Nuckel anordnen &#xd;
-Energieversorgung beim Absetzen &#xd;
-Aufstallung optimieren &#xd;
-bei Tränkeautomat Schutz der trinkenden Kälber und noch Fixierung für 10 min &#xd;
-  &#xd;
+          <description>Beschreibung: Pflicht ab 8 Wochen (Ausnahme &lt;6 Kälber) &#xd;&#xd;
+  &#xd;&#xd;
+Haltung hier recht gut – Liegefläche Tiefstreu, befestigter Freßplatz – wichtig für Klauenabrieb; &#xd;&#xd;
+Heuraufe &#xd;&#xd;
+Tränke (Wasser) &#xd;&#xd;
+Eimertränke 2xtäglich – Alternative – größere Gruppen mit Tränkeautomat; auch ohne Tränkeautomat in Praxis meist größere Gruppen - > 10 Tiere ungünstig &#xd;&#xd;
+  &#xd;&#xd;
+Problem: gegnseitiges Besaugen, bei Kälbern und später bei Jungvieh – an Euteranlage, Nabel, Scrotum &#xd;&#xd;
+Folgen: Entzündungen, ev. Verlust Euterviertel – wirtschaftliche Relevanz &#xd;&#xd;
+Gründe: normal: Saugen an Mutter 3-5mal pro Tag ab 2. Lebenswoche; dauert jeweils ca. 10 –15 min, Wechsel der Zitzen, Kopfstoß; dagegen Tränken 2 x täglich, in wenigen min leer – beim Trinken von Milch wird Saugtrieb ausgelöst, braucht gewisse Zeit zum Abbau, ev. Zusammenhang mit Glucosespiegel (nach US konnte durch Zugabe von Glucose in Milch gegenseitiges Besaugen verringert werden), Hunger &#xd;&#xd;
+gegenseitiges Besaugen als Jungvieh - Zusammenhang mit Aufstallung (weniger wenn Aussenzugang, Offenfrontstall) und v.a. mit Fütterung beim Absetzen (Energiedefizit – mehr Besaugen; individuelles Absetz-Programm je nach Menge Kraftfutterverzehr reduziert ggs.Besaugen) &#xd;&#xd;
+kein gegenseitiges Besaugen bei muttergebundener Kälberaufzucht (neueres Verfahren, noch in Weiterentwicklung, bisher kaum praktiziert da Milchverluste) &#xd;&#xd;
+Stress, d.h. nicht tiergerechte Aufstallung fördert Besaugen &#xd;&#xd;
+Abhilfen, die ggs. Besaugen verringern. &#xd;&#xd;
+Fixieren nach der Tränke für ca. 20 min; dabei Futter verfügbar, Nuckel &#xd;&#xd;
+Tränke verlängern (Schlauch kleiner – Problem Reinigung; Ventil – in Entwicklung für Tränkeautomaten) &#xd;&#xd;
+Nuckel anordnen &#xd;&#xd;
+Energieversorgung beim Absetzen &#xd;&#xd;
+Aufstallung optimieren &#xd;&#xd;
+bei Tränkeautomat Schutz der trinkenden Kälber und noch Fixierung für 10 min &#xd;&#xd;
+  &#xd;&#xd;
 Eingriffe: Enthornen – Lokalanästhesie (keine zusätzliche Sedation), Schmerzmittel (seit 2017 vorgeschrieben nach TschG/ThaltungsVO </description>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
